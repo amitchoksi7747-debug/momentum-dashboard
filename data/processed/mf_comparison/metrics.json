@@ -1,0 +1,68 @@
+{
+  "status": "ok",
+  "run_timestamp": "2026-07-13T05:37:57Z",
+  "common_start": "2025-08-28",
+  "as_of_date": "2026-07-10",
+  "funds": {
+    "Axis Nifty500 Momentum50": {
+      "category": "Index",
+      "official_name": "Axis Nifty500 Momentum 50 Index Fund - Direct Plan - Growth Option",
+      "inception": "2025-02-18",
+      "latest_date": "2026-07-10",
+      "latest_nav": 11.0479,
+      "since_inception_return": 0.14029890799496325,
+      "since_inception_cagr": 0.0992009303070942,
+      "common_window_return": 0.059455882776014546
+    },
+    "Edelweiss Midcap150 Momentum50": {
+      "category": "Index",
+      "official_name": "Edelweiss Nifty Midcap150 Momentum 50 Index Fund - Direct Plan - Growth",
+      "inception": "2022-12-02",
+      "latest_date": "2026-07-10",
+      "latest_nav": 18.5713,
+      "since_inception_return": 0.8274521766511849,
+      "since_inception_cagr": 0.18215441620685824,
+      "common_window_return": 0.051739467767602854
+    },
+    "ICICI Pru Active Momentum": {
+      "category": "Active",
+      "official_name": "ICICI Prudential Active Momentum Fund - Direct Plan - Growth",
+      "inception": "2025-07-28",
+      "latest_date": "2026-07-10",
+      "latest_nav": 10.93,
+      "since_inception_return": 0.09409409409409397,
+      "since_inception_cagr": 0.09928095007211701,
+      "common_window_return": 0.1062753036437245
+    },
+    "Kotak Active Momentum": {
+      "category": "Active",
+      "official_name": "Kotak Active Momentum Fund - Direct Plan - Growth option",
+      "inception": "2025-08-28",
+      "latest_date": "2026-07-10",
+      "latest_nav": 10.884,
+      "since_inception_return": 0.08557749850388996,
+      "since_inception_cagr": 0.09955949111673079,
+      "common_window_return": 0.08557749850388996
+    },
+    "Motilal Oswal Active Momentum": {
+      "category": "Active",
+      "official_name": "Motilal Oswal Active Momentum Fund- Direct-Growth",
+      "inception": "2025-03-21",
+      "latest_date": "2026-07-10",
+      "latest_nav": 13.694,
+      "since_inception_return": 0.367362629681774,
+      "since_inception_cagr": 0.27135813717335333,
+      "common_window_return": 0.24070198327489511
+    },
+    "Nippon Active Momentum": {
+      "category": "Active",
+      "official_name": "Nippon India Active Momentum Fund-Direct Plan - Growth Option",
+      "inception": "2025-03-03",
+      "latest_date": "2026-07-10",
+      "latest_nav": 13.042,
+      "since_inception_return": 0.306146157775085,
+      "since_inception_cagr": 0.21831930740688343,
+      "common_window_return": 0.139268149934048
+    }
+  }
+}

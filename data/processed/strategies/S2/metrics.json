@@ -1,0 +1,23 @@
+{
+  "status": "live",
+  "inception_date": "2026-01-02",
+  "as_of_date": "2026-07-13",
+  "days_live": 131,
+  "nav_latest": 106.24618401173399,
+  "period_return": 0.062461840117339795,
+  "max_drawdown": -0.14127443066082568,
+  "current_drawdown": -0.01565893154521969,
+  "cagr": 0.10912446483348792,
+  "annualized_vol": 0.22513807489736745,
+  "sharpe": 0.5760726082396616,
+  "sortino": 0.48143291750411643,
+  "calmar": 0.7786862442473386,
+  "annualization_note": null,
+  "strategy_name": "N500 Momentum",
+  "benchmark_status": "ok",
+  "current_cash": 0.0,
+  "notional_capital": 10000000.0,
+  "run_timestamp": "2026-07-13T05:37:47Z",
+  "latest_rebalance_signal_date": "2026-06-30",
+  "latest_rebalance_exec_date": "2026-07-01"
+}

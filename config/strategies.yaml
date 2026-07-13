@@ -1,0 +1,90 @@
+# Momentum strategies — live tracking configuration
+# See docs/momentum_strategies_plan.md for full rationale.
+#
+# Common rule block (identical across all 4 strategies; only `universe` differs).
+# Each strategy overrides `universe` and inherits everything under `rules`.
+
+rules: &common_rules
+  windows_trading_days: [63, 126, 189, 252]      # ~3M/6M/9M/12M in trading days
+  ranking_mode: avg_rank                          # avg-of-4-ranks (CONFIRMED, not avg_sharpe)
+  sharpe_style: vol_adjusted_return                # window_return / annualized_daily_vol
+  top_n: 30                                        # portfolio size
+  worst_rank_held: 60                              # exit if avg_rank > this
+  trend_filter:
+    enabled: true
+    ma_type: dema                                   # dema | ema | sma
+    period: 200
+    apply_to_holdings: true                          # CONFIRMED: checked every rebalance, not just entry
+  circuit_filter:
+    enabled: true
+    lookback_trading_days: 252
+    max_circuit_days: 25                             # exit if trailing circuit days > 25
+    apply_to_holdings: true                          # CONFIRMED
+  min_history_trading_days: 252                     # required for a symbol to be rankable
+  rebalance_frequency: monthly                       # signal on last trading day of month
+  execution: next_open                               # next_open | same_close
+  weighting: equal                                   # equal-weight across top_n holdings
+  universe_exit_on_removal: false                    # a name dropped from its index is NOT
+                                                       # force-exited; only rank/DEMA/circuit govern exits
+  cash_when_underfilled: true                        # if <30 eligible names, hold cash for empty slots
+
+strategies:
+  # benchmark_symbol verified against live yfinance data on 2026-07-07:
+  #   ^CRSLDX (Nifty 500) returns real multi-year daily history — usable.
+  #   NIFTYLARGEMID250.NS / NIFTYMIDSML400.NS / NIFTY_TOTAL_MKT.NS exist as yfinance quotes
+  #   but only return a single snapshot row (no history) — NOT usable as-is.
+  #   niftyindices.com's historical-index-value API (Backpage.aspx) no longer returns JSON
+  #   (site was reworked); no working direct-CSV endpoint was found for these 3 indices.
+  #   benchmark_provider.py returns None gracefully for S1/S3/S4 until a working source is
+  #   wired in (candidate: manual CSV drop in data/raw/benchmarks/{index}.csv, same schema
+  #   as prices_eod). This does not block live tracking of the portfolios themselves.
+  S1:
+    name: "NLargeMid250 Momentum"
+    universe: "NIFTY_LARGEMIDCAP_250"
+    universe_csv: "ind_niftylargemidcap250list.csv"
+    benchmark_symbol: null
+    benchmark_status: "unavailable_v1"
+    rules: *common_rules
+
+  S2:
+    name: "N500 Momentum"
+    universe: "NIFTY_500"
+    universe_csv: "ind_nifty500list.csv"
+    benchmark_symbol: "^CRSLDX"
+    benchmark_status: "ok"
+    rules: *common_rules
+
+  S3:
+    name: "NMidSmall400 Momentum"
+    universe: "NIFTY_MIDSMALLCAP_400"
+    universe_csv: "ind_niftymidsmallcap400list.csv"
+    benchmark_symbol: null
+    benchmark_status: "unavailable_v1"
+    rules: *common_rules
+
+  S4:
+    name: "N750 Momentum"
+    universe: "NIFTY_TOTAL_MARKET"
+    universe_csv: "ind_niftytotalmarket_list.csv"
+    benchmark_symbol: null
+    benchmark_status: "unavailable_v1"
+    rules: *common_rules
+
+data_sources:
+  niftyindices_base_url: "https://niftyindices.com/IndexConstituent/"
+  nse_bhavcopy_url_template: "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_{date:%Y%m%d}_F_0000.csv.zip"
+  circuit_day_proxy: "high_eq_low_or_move_ge_4_9pct"  # used when bhavcopy price-band field unavailable
+
+# Market-cap classification — CONFIRMED rank-based (2026-07-08), matching how NSE's own
+# Nifty Largecap/Midcap/Smallcap indices are defined: rank universe symbols by market cap,
+# not a fixed Rs Cr cutoff (an earlier absolute-threshold attempt put well-known "midcap"
+# names like Federal Bank/Polycab/MRF into "Large" simply because the market has grown).
+# Fully automatable: market cap comes directly from yfinance per symbol, no manual file.
+mcap_rank_thresholds:
+  large_rank_max: 100   # rank 1-100 by market cap -> Large
+  mid_rank_max: 250      # rank 101-250 -> Mid; rank 251+ -> Small
+
+portfolio_engine:
+  notional_capital: 10000000        # cosmetic starting NAV base (1 Cr), NAV itself starts at 100
+  idle_cash_annual_rate: 0.0
+  bootstrap_history_trading_days: 450   # covers 252d Sharpe window + 200d DEMA warm-up

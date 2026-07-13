@@ -1,0 +1,23 @@
+{
+  "status": "live",
+  "inception_date": "2026-01-02",
+  "as_of_date": "2026-07-13",
+  "days_live": 131,
+  "nav_latest": 96.58097523668378,
+  "period_return": -0.03419024763316214,
+  "max_drawdown": -0.1457782957288951,
+  "current_drawdown": -0.0683316158445273,
+  "cagr": -0.07383811645543936,
+  "annualized_vol": 0.2079996921381525,
+  "sharpe": -0.2676833533271329,
+  "sortino": -0.218217832827188,
+  "calmar": -0.510257270145123,
+  "annualization_note": null,
+  "strategy_name": "NLargeMid250 Momentum",
+  "benchmark_status": "unavailable_v1",
+  "current_cash": 0.0,
+  "notional_capital": 10000000.0,
+  "run_timestamp": "2026-07-13T05:37:47Z",
+  "latest_rebalance_signal_date": "2026-06-30",
+  "latest_rebalance_exec_date": "2026-07-01"
+}

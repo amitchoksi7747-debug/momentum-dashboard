@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Ephemeral price DB — rebuilt fresh each run, never committed (too big for GitHub)
+*.db
+*.sqlite
+*.sqlite3
+data/raw/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

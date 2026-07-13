@@ -1,0 +1,23 @@
+# Momentum mutual funds tracked on the Fund Comparison page.
+# NAV history is fetched from api.mfapi.in by scheme code (direct-growth plans).
+# short_name is what the chart/legend shows; category distinguishes actively-managed
+# momentum funds from passive momentum index funds (they are not the same product).
+funds:
+  - scheme_code: 153364
+    short_name: "Motilal Oswal Active Momentum"
+    category: "Active"
+  - scheme_code: 153274
+    short_name: "Nippon Active Momentum"
+    category: "Active"
+  - scheme_code: 153684
+    short_name: "ICICI Pru Active Momentum"
+    category: "Active"
+  - scheme_code: 153753
+    short_name: "Kotak Active Momentum"
+    category: "Active"
+  - scheme_code: 150902
+    short_name: "Edelweiss Midcap150 Momentum50"
+    category: "Index"
+  - scheme_code: 153244
+    short_name: "Axis Nifty500 Momentum50"
+    category: "Index"

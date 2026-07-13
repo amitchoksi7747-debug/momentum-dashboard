@@ -1,0 +1,13 @@
+# Streamlit Community Cloud config for the Momentum Portfolio Dashboard.
+[theme]
+base = "dark"
+backgroundColor = "#0f1117"
+secondaryBackgroundColor = "#1a1f2e"
+textColor = "#e8eaf0"
+primaryColor = "#3987e5"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false

@@ -1,0 +1,41 @@
+Action,Symbol,AvgRank,Reason
+SELL,NSE:ABB,,rank 82.50 > worst-rank-held 60
+SELL,NSE:COALINDIA,,below 200DEMA
+SELL,NSE:HINDALCO,,below 200DEMA
+SELL,NSE:JBCHEPHARM,,rank 61.25 > worst-rank-held 60
+SELL,NSE:MCX,,below 200DEMA
+SELL,NSE:NATIONALUM,,below 200DEMA
+SELL,NSE:NETWEB,,rank 67.50 > worst-rank-held 60
+SELL,NSE:NLCINDIA,,rank 103.75 > worst-rank-held 60
+SELL,NSE:SAIL,,below 200DEMA
+SELL,NSE:TRITURBINE,,rank 72.25 > worst-rank-held 60
+HOLD,NSE:ABSLAMC,53.0,"still eligible, rank within hold band"
+HOLD,NSE:ACUTAAS,34.0,"still eligible, rank within hold band"
+HOLD,NSE:ADANIENSOL,21.75,"still eligible, rank within hold band"
+HOLD,NSE:ADANIGREEN,35.5,"still eligible, rank within hold band"
+HOLD,NSE:ADANIPOWER,18.25,"still eligible, rank within hold band"
+HOLD,NSE:APARINDS,13.0,"still eligible, rank within hold band"
+HOLD,NSE:BHEL,16.75,"still eligible, rank within hold band"
+HOLD,NSE:BSE,32.25,"still eligible, rank within hold band"
+HOLD,NSE:CUMMINSIND,50.0,"still eligible, rank within hold band"
+HOLD,NSE:DATAPATTNS,46.25,"still eligible, rank within hold band"
+HOLD,NSE:GVT&D,44.75,"still eligible, rank within hold band"
+HOLD,NSE:HFCL,2.0,"still eligible, rank within hold band"
+HOLD,NSE:IDEA,33.25,"still eligible, rank within hold band"
+HOLD,NSE:LAURUSLABS,7.5,"still eligible, rank within hold band"
+HOLD,NSE:LLOYDSME,54.25,"still eligible, rank within hold band"
+HOLD,NSE:POWERINDIA,23.5,"still eligible, rank within hold band"
+HOLD,NSE:RRKABEL,9.0,"still eligible, rank within hold band"
+HOLD,NSE:SCHNEIDER,37.5,"still eligible, rank within hold band"
+HOLD,NSE:SYRMA,7.75,"still eligible, rank within hold band"
+HOLD,NSE:WELCORP,7.5,"still eligible, rank within hold band"
+BUY,NSE:MAHABANK,12.0,rank 12.00 among best available
+BUY,NSE:ANANDRATHI,12.5,rank 12.50 among best available
+BUY,NSE:FEDERALBNK,21.0,rank 21.00 among best available
+BUY,NSE:HSCL,26.75,rank 26.75 among best available
+BUY,NSE:STARHEALTH,26.75,rank 26.75 among best available
+BUY,NSE:POLYCAB,27.75,rank 27.75 among best available
+BUY,NSE:CEMPRO,32.5,rank 32.50 among best available
+BUY,NSE:J&KBANK,35.5,rank 35.50 among best available
+BUY,NSE:ACMESOLAR,36.5,rank 36.50 among best available
+BUY,NSE:CGPOWER,37.0,rank 37.00 among best available

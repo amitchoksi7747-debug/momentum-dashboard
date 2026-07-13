@@ -1,0 +1,42 @@
+name: Daily Momentum Update
+
+# Rebuilds the 4 momentum strategies (fresh prices + committed circuit/mcap state) and the
+# mutual-fund comparison, then commits the refreshed data so the Streamlit Cloud app updates.
+on:
+  schedule:
+    - cron: '30 12 * * 1-5'   # 18:00 IST (UTC+5:30), Mon–Fri — after NSE close & EOD settle
+  workflow_dispatch:            # manual "Run workflow" button
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Rebuild strategies + fund comparison
+        run: python scripts/cloud_rebuild.py
+
+      - name: Commit & push refreshed data
+        run: |
+          git config user.name  "Momentum Bot"
+          git config user.email "momentum-bot@noreply.github.com"
+          git add data/processed/ data/state/
+          git diff --staged --quiet \
+            && echo "No data changes — skipping commit." \
+            || (git commit -m "data: momentum rebuild $(date -u +'%Y-%m-%d %H:%M UTC')" && git push)

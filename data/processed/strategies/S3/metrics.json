@@ -1,0 +1,23 @@
+{
+  "status": "live",
+  "inception_date": "2026-01-02",
+  "as_of_date": "2026-07-13",
+  "days_live": 131,
+  "nav_latest": 111.30315909727663,
+  "period_return": 0.11303159097276638,
+  "max_drawdown": -0.14328366287594052,
+  "current_drawdown": -0.010180506357288066,
+  "cagr": 0.21276915254180206,
+  "annualized_vol": 0.21816844805663968,
+  "sharpe": 1.0003126591226694,
+  "sortino": 0.8654295601689878,
+  "calmar": 1.4975197153783981,
+  "annualization_note": null,
+  "strategy_name": "NMidSmall400 Momentum",
+  "benchmark_status": "unavailable_v1",
+  "current_cash": 0.0,
+  "notional_capital": 10000000.0,
+  "run_timestamp": "2026-07-13T05:37:47Z",
+  "latest_rebalance_signal_date": "2026-06-30",
+  "latest_rebalance_exec_date": "2026-07-01"
+}

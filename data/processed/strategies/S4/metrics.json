@@ -1,0 +1,23 @@
+{
+  "status": "live",
+  "inception_date": "2026-01-02",
+  "as_of_date": "2026-07-13",
+  "days_live": 131,
+  "nav_latest": 100.97067833847605,
+  "period_return": 0.009706783384760387,
+  "max_drawdown": -0.14256894384176733,
+  "current_drawdown": -0.01665845157926138,
+  "cagr": 0.01436647189581941,
+  "annualized_vol": 0.2353097462311621,
+  "sharpe": 0.17848022679845224,
+  "sortino": 0.15342851186256065,
+  "calmar": 0.10154932055279245,
+  "annualization_note": null,
+  "strategy_name": "N750 Momentum",
+  "benchmark_status": "unavailable_v1",
+  "current_cash": 0.0,
+  "notional_capital": 10000000.0,
+  "run_timestamp": "2026-07-13T05:37:47Z",
+  "latest_rebalance_signal_date": "2026-06-30",
+  "latest_rebalance_exec_date": "2026-07-01"
+}
