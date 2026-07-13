@@ -89,6 +89,12 @@ st.plotly_chart(fig, use_container_width=True)
 
 # ── Metrics table ────────────────────────────────────────────────────────────
 st.markdown('<div class="section-title">Fund Metrics</div>', unsafe_allow_html=True)
+
+
+def _pct(v):
+    return f"{v*100:+.1f}%" if v is not None and pd.notna(v) else "—"
+
+
 rows = []
 for name, f in funds.items():
     rows.append({
@@ -96,15 +102,22 @@ for name, f in funds.items():
         "Type": f.get("category", ""),
         "Inception": f.get("inception"),
         "Latest NAV": f"{f['latest_nav']:.2f}",
-        f"Return since {metrics['common_start']}": (f"{f['common_window_return']*100:+.1f}%"
-                                                     if f.get("common_window_return") is not None else "—"),
-        "Since inception": f"{f['since_inception_return']*100:+.1f}%",
-        "CAGR": (f"{f['since_inception_cagr']*100:+.1f}%" if f.get("since_inception_cagr") is not None else "—"),
+        "3M": _pct(f.get("return_3m")),
+        "6M": _pct(f.get("return_6m")),
+        "YTD": _pct(f.get("return_ytd")),
+        "Since inception": _pct(f.get("since_inception_return")),
+        "CAGR": _pct(f.get("since_inception_cagr")),
     })
-mdf = pd.DataFrame(rows).sort_values(f"Return since {metrics['common_start']}", ascending=False)
+# sort by 6M return (falls back to since-inception ordering for funds without 6M history)
+mdf = pd.DataFrame(rows)
+_sort_key = pd.Series({name: (funds[name].get("return_6m") if funds[name].get("return_6m") is not None
+                              else funds[name].get("since_inception_return", -9)) for name in funds})
+mdf = mdf.assign(_k=mdf["Fund"].map(_sort_key)).sort_values("_k", ascending=False).drop(columns="_k")
 st.dataframe(mdf, use_container_width=True, hide_index=True)
 
 st.caption("Active = actively-managed momentum fund · Index = passive momentum index fund. "
-           "Since-inception figures span different periods (funds launched on different dates) and "
-           "are not directly comparable — use the common-window column for a like-for-like read. "
-           "Past performance is not indicative of future results; this is data display, not advice.")
+           "3M / 6M are trailing-period returns; YTD is from 1 Jan (or since inception for funds "
+           "launched this year); “—” means the fund is too new for that period. Since-inception "
+           "figures span different lengths and aren't directly comparable — the chart above rebases "
+           "everyone to a common start for a like-for-like read. Past performance is not indicative "
+           "of future results; this is data display, not advice.")
