@@ -104,6 +104,7 @@ def build_fund_comparison(base_dir: Path) -> dict:
             "inception": inception.date().isoformat(),
             "latest_date": latest_date.date().isoformat(),
             "latest_nav": latest_nav,
+            "return_1m": _period_return(nav_by_date, latest_nav, latest_date, months=1),
             "return_3m": _period_return(nav_by_date, latest_nav, latest_date, months=3),
             "return_6m": _period_return(nav_by_date, latest_nav, latest_date, months=6),
             "return_ytd": _period_return(nav_by_date, latest_nav, latest_date, ytd=True),

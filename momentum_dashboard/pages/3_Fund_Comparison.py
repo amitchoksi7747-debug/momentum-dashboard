@@ -102,6 +102,7 @@ for name, f in funds.items():
         "Type": f.get("category", ""),
         "Inception": f.get("inception"),
         "Latest NAV": f"{f['latest_nav']:.2f}",
+        "1M": _pct(f.get("return_1m")),
         "3M": _pct(f.get("return_3m")),
         "6M": _pct(f.get("return_6m")),
         "YTD": _pct(f.get("return_ytd")),
@@ -116,7 +117,7 @@ mdf = mdf.assign(_k=mdf["Fund"].map(_sort_key)).sort_values("_k", ascending=Fals
 st.dataframe(mdf, use_container_width=True, hide_index=True)
 
 st.caption("Active = actively-managed momentum fund · Index = passive momentum index fund. "
-           "3M / 6M are trailing-period returns; YTD is from 1 Jan (or since inception for funds "
+           "1M / 3M / 6M are trailing-period returns; YTD is from 1 Jan (or since inception for funds "
            "launched this year); “—” means the fund is too new for that period. Since-inception "
            "figures span different lengths and aren't directly comparable — the chart above rebases "
            "everyone to a common start for a like-for-like read. Past performance is not indicative "
