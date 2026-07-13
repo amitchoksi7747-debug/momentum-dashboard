@@ -1,7 +1,8 @@
+# Runtime deps for the Streamlit APP only (what Streamlit Community Cloud installs).
+# The daily-update job needs a few more (yfinance/requests) — see requirements-build.txt —
+# but the app itself never imports them, so keeping them out of here makes the Cloud deploy
+# smaller and far less likely to fail on a dependency build.
 streamlit>=1.44.0
 pandas>=2.2.0
-numpy>=1.26.0
 plotly>=5.24.0
 PyYAML>=6.0.2
-yfinance>=0.2.54
-requests>=2.32.0

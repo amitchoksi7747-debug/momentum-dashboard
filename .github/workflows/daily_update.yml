@@ -27,7 +27,7 @@ jobs:
           cache: 'pip'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r requirements-build.txt
 
       - name: Rebuild strategies + fund comparison
         run: python scripts/cloud_rebuild.py

@@ -1,0 +1,6 @@
+# Extra deps the daily-update job (scripts/cloud_rebuild.py) needs on top of the app deps.
+# GitHub Actions installs this file; Streamlit Cloud does NOT (it only installs requirements.txt).
+-r requirements.txt
+numpy>=1.26.0
+yfinance>=0.2.54
+requests>=2.32.0
