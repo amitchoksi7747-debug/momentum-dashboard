@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name  "Momentum Bot"
           git config user.email "momentum-bot@noreply.github.com"
-          git add data/processed/ data/state/
+          git add data/processed/    # small metric files only; prices base (data/state/) is refreshed periodically, not daily
           git diff --staged --quiet \
             && echo "No data changes — skipping commit." \
             || (git commit -m "data: momentum rebuild $(date -u +'%Y-%m-%d %H:%M UTC')" && git push)
