@@ -11,7 +11,6 @@ SELL,NSE:TIINDIA,,rank 65.50 > worst-rank-held 60
 HOLD,NSE:ABB,38.5,"still eligible, rank within hold band"
 HOLD,NSE:ADANIENSOL,11.5,"still eligible, rank within hold band"
 HOLD,NSE:ADANIGREEN,17.75,"still eligible, rank within hold band"
-HOLD,NSE:ADANIPORTS,24.0,"still eligible, rank within hold band"
 HOLD,NSE:ADANIPOWER,9.25,"still eligible, rank within hold band"
 HOLD,NSE:APARINDS,7.25,"still eligible, rank within hold band"
 HOLD,NSE:BHEL,8.25,"still eligible, rank within hold band"
@@ -24,6 +23,7 @@ HOLD,NSE:KEI,27.25,"still eligible, rank within hold band"
 HOLD,NSE:LAURUSLABS,2.75,"still eligible, rank within hold band"
 HOLD,NSE:LLOYDSME,26.5,"still eligible, rank within hold band"
 HOLD,NSE:MAHABANK,6.25,"still eligible, rank within hold band"
+HOLD,NSE:MOTHERSON,26.75,"still eligible, rank within hold band"
 HOLD,NSE:NLCINDIA,49.0,"still eligible, rank within hold band"
 HOLD,NSE:OFSS,21.0,"still eligible, rank within hold band"
 HOLD,NSE:POLYCAB,14.25,"still eligible, rank within hold band"
@@ -31,10 +31,10 @@ HOLD,NSE:POWERINDIA,12.0,"still eligible, rank within hold band"
 HOLD,NSE:SUNPHARMA,55.5,"still eligible, rank within hold band"
 BUY,NSE:FEDERALBNK,10.5,rank 10.50 among best available
 BUY,NSE:NYKAA,21.0,rank 21.00 among best available
+BUY,NSE:ADANIPORTS,24.0,rank 24.00 among best available
 BUY,NSE:NAM-INDIA,25.75,rank 25.75 among best available
 BUY,NSE:APOLLOHOSP,25.75,rank 25.75 among best available
 BUY,NSE:ADANIENT,26.25,rank 26.25 among best available
-BUY,NSE:MOTHERSON,26.75,rank 26.75 among best available
 BUY,NSE:ZYDUSLIFE,32.0,rank 32.00 among best available
 BUY,NSE:ABCAPITAL,33.5,rank 33.50 among best available
 BUY,NSE:MARICO,34.0,rank 34.00 among best available

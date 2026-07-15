@@ -5,13 +5,13 @@ SELL,NSE:MCX,,below 200DEMA
 SELL,NSE:NATIONALUM,,below 200DEMA
 SELL,NSE:NLCINDIA,,rank 84.50 > worst-rank-held 60
 SELL,NSE:SAIL,,below 200DEMA
-SELL,NSE:USHAMART,,rank 69.25 > worst-rank-held 60
 HOLD,NSE:ABSLAMC,44.0,"still eligible, rank within hold band"
 HOLD,NSE:ACUTAAS,28.25,"still eligible, rank within hold band"
 HOLD,NSE:APARINDS,11.25,"still eligible, rank within hold band"
 HOLD,NSE:BHEL,14.75,"still eligible, rank within hold band"
 HOLD,NSE:BSE,27.25,"still eligible, rank within hold band"
 HOLD,NSE:DATAPATTNS,38.5,"still eligible, rank within hold band"
+HOLD,NSE:FINCABLES,46.0,"still eligible, rank within hold band"
 HOLD,NSE:GVT&D,37.25,"still eligible, rank within hold band"
 HOLD,NSE:HFCL,2.0,"still eligible, rank within hold band"
 HOLD,NSE:IDEA,27.25,"still eligible, rank within hold band"
@@ -35,4 +35,3 @@ BUY,NSE:FEDERALBNK,16.75,rank 16.75 among best available
 BUY,NSE:HSCL,22.0,rank 22.00 among best available
 BUY,NSE:POLYCAB,22.25,rank 22.25 among best available
 BUY,NSE:CEMPRO,27.25,rank 27.25 among best available
-BUY,NSE:ACMESOLAR,30.5,rank 30.50 among best available
