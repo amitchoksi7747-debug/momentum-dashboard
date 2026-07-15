@@ -51,7 +51,13 @@ def monthly_return_table(nav: pd.Series) -> pd.DataFrame:
         return pd.DataFrame()
     s = nav.copy()
     s.index = pd.to_datetime(s.index)
-    monthly_nav = s.resample("M").last()  # 'M' (not 'ME') for compatibility with pandas < 2.2
+    # pandas >= 2.2 REMOVED the "M" (month-end) alias and requires "ME"; pandas < 2.2 only knows
+    # "M". Try the new alias first so it works on GitHub Actions / Streamlit Cloud (newer pandas),
+    # falling back to "M" on older local installs.
+    try:
+        monthly_nav = s.resample("ME").last()
+    except ValueError:
+        monthly_nav = s.resample("M").last()
     monthly_ret = monthly_nav.pct_change(fill_method=None)
     monthly_ret.iloc[0] = monthly_nav.iloc[0] / s.iloc[0] - 1  # first partial month vs series start
     df = monthly_ret.to_frame("Return")
