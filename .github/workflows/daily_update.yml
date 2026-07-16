@@ -4,7 +4,14 @@ name: Daily Momentum Update
 # mutual-fund comparison, then commits the refreshed data so the Streamlit Cloud app updates.
 on:
   schedule:
-    - cron: '30 12 * * 1-5'   # 18:00 IST (UTC+5:30), Mon–Fri — after NSE close & EOD settle
+    # 23:30 IST (18:00 UTC), Mon–Fri. Deliberately LATE: Indian mutual-fund NAVs are only
+    # published ~10–11 PM IST, so an earlier run captured the previous day's NAV and left the
+    # funds curve a day short. Market prices (settled since 3:30 PM) are also available by now,
+    # so this one run captures same-day prices AND same-day NAVs together.
+    - cron: '0 18 * * 1-5'
+    # Safety net the next morning (08:30 IST) in case a fund published its NAV very late or the
+    # evening run was delayed — the rebuild is a full refresh, so this simply backfills any gap.
+    - cron: '0 3 * * 2-6'
   workflow_dispatch:            # manual "Run workflow" button
 
 jobs:
