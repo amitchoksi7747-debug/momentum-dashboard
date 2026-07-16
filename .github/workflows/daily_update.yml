@@ -44,6 +44,21 @@ jobs:
           git config user.name  "Momentum Bot"
           git config user.email "momentum-bot@noreply.github.com"
           git add data/processed/    # small metric files only; prices base (data/state/) is refreshed periodically, not daily
-          git diff --staged --quiet \
-            && echo "No data changes — skipping commit." \
-            || (git commit -m "data: momentum rebuild $(date -u +'%Y-%m-%d %H:%M UTC')" && git push)
+          if git diff --staged --quiet; then
+            echo "No data changes — skipping commit."
+            exit 0
+          fi
+          git commit -m "data: momentum rebuild $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # Push resiliently: if the remote moved between checkout and now (a concurrent run or a
+          # manual push), rebase our freshly-regenerated data on top (ours wins any conflict since
+          # it's the newest rebuild) and retry, so a race never leaves the dashboard stale.
+          for attempt in 1 2 3 4 5; do
+            if git push origin main; then
+              echo "pushed on attempt $attempt"; exit 0
+            fi
+            echo "push rejected (attempt $attempt) — syncing with remote and retrying"
+            git fetch origin main
+            git rebase -X theirs origin/main || git rebase --abort
+            sleep $((attempt * 4))
+          done
+          echo "ERROR: push failed after 5 attempts"; exit 1
