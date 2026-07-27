@@ -6,6 +6,7 @@ SELL,NSE:JAYNECOIND,,below 200DEMA
 SELL,NSE:KTKBANK,,rank 98.75 > worst-rank-held 60
 SELL,NSE:MCX,,below 200DEMA
 SELL,NSE:NATIONALUM,,below 200DEMA
+SELL,NSE:NETWEB,,rank 100.00 > worst-rank-held 60
 SELL,NSE:NLCINDIA,,rank 151.25 > worst-rank-held 60
 SELL,NSE:SAIL,,below 200DEMA
 HOLD,NSE:ACUTAAS,50.5,"still eligible, rank within hold band"
@@ -19,7 +20,6 @@ HOLD,NSE:BBOX,14.25,"still eligible, rank within hold band"
 HOLD,NSE:BHEL,27.25,"still eligible, rank within hold band"
 HOLD,NSE:BSE,51.25,"still eligible, rank within hold band"
 HOLD,NSE:CUPID,5.0,"still eligible, rank within hold band"
-HOLD,NSE:DIACABS,51.25,"still eligible, rank within hold band"
 HOLD,NSE:HFCL,3.0,"still eligible, rank within hold band"
 HOLD,NSE:IDEA,50.75,"still eligible, rank within hold band"
 HOLD,NSE:LAURUSLABS,13.75,"still eligible, rank within hold band"
@@ -38,3 +38,4 @@ BUY,NSE:ANANDRATHI,23.25,rank 23.25 among best available
 BUY,NSE:GRWRHITECH,29.75,rank 29.75 among best available
 BUY,NSE:PARAS,34.75,rank 34.75 among best available
 BUY,NSE:FEDERALBNK,36.25,rank 36.25 among best available
+BUY,NSE:SHILPAMED,38.75,rank 38.75 among best available
