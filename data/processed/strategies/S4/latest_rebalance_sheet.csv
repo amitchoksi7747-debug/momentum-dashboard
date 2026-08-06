@@ -17,18 +17,19 @@ SELL,NSE:POWERINDIA,,below 200DEMA
 SELL,NSE:RRKABEL,,below 200DEMA
 SELL,NSE:SANSERA,,no longer rankable (missing recent price data)
 SELL,NSE:SCHNEIDER,,below 200DEMA
+SELL,NSE:SHILPAMED,,below 200DEMA
 SELL,NSE:TDPOWERSYS,,below 200DEMA
 SELL,NSE:THANGAMAYL,,below 200DEMA
 HOLD,NSE:ADANIENSOL,14.0,"still eligible, rank within hold band"
 HOLD,NSE:ADANIGREEN,31.25,"still eligible, rank within hold band"
 HOLD,NSE:APOLLO,22.0,"still eligible, rank within hold band"
 HOLD,NSE:BHEL,15.25,"still eligible, rank within hold band"
-HOLD,NSE:DIACABS,6.5,"still eligible, rank within hold band"
 HOLD,NSE:IDEA,19.5,"still eligible, rank within hold band"
 HOLD,NSE:LAURUSLABS,1.5,"still eligible, rank within hold band"
 HOLD,NSE:PARAS,14.5,"still eligible, rank within hold band"
 HOLD,NSE:SYRMA,5.75,"still eligible, rank within hold band"
 HOLD,NSE:WELCORP,5.25,"still eligible, rank within hold band"
+BUY,NSE:DIACABS,6.5,rank 6.50 among best available
 BUY,NSE:SKYGOLD,7.25,rank 7.25 among best available
 BUY,NSE:RAIN,13.0,rank 13.00 among best available
 BUY,NSE:SUNPHARMA,15.75,rank 15.75 among best available
@@ -38,7 +39,7 @@ BUY,NSE:THYROCARE,18.0,rank 18.00 among best available
 BUY,NSE:MOTHERSON,20.25,rank 20.25 among best available
 BUY,NSE:LLOYDSENGG,20.25,rank 20.25 among best available
 BUY,NSE:GAEL,22.0,rank 22.00 among best available
-BUY,NSE:CGCL,24.25,rank 24.25 among best available
+BUY,NSE:CGCL,24.5,rank 24.50 among best available
 BUY,NSE:KARURVYSYA,24.5,rank 24.50 among best available
 BUY,NSE:ADANIENT,24.75,rank 24.75 among best available
 BUY,NSE:SPARC,25.0,rank 25.00 among best available
