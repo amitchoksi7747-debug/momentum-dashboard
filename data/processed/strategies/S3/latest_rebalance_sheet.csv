@@ -29,10 +29,10 @@ HOLD,NSE:LAURUSLABS,1.5,"still eligible, rank within hold band"
 HOLD,NSE:NETWEB,17.5,"still eligible, rank within hold band"
 HOLD,NSE:SYRMA,3.5,"still eligible, rank within hold band"
 HOLD,NSE:WELCORP,3.5,"still eligible, rank within hold band"
-BUY,NSE:OFSS,9.0,rank 9.00 among best available
+BUY,NSE:OFSS,8.75,rank 8.75 among best available
 BUY,NSE:CGCL,12.0,rank 12.00 among best available
 BUY,NSE:KARURVYSYA,12.5,rank 12.50 among best available
-BUY,NSE:SHYAMMETL,13.0,rank 13.00 among best available
+BUY,NSE:SHYAMMETL,13.25,rank 13.25 among best available
 BUY,NSE:WOCKPHARMA,14.5,rank 14.50 among best available
 BUY,NSE:REDINGTON,14.75,rank 14.75 among best available
 BUY,NSE:IDFCFIRSTB,17.25,rank 17.25 among best available
