@@ -7,7 +7,6 @@ SELL,NSE:ANANDRATHI,,no longer rankable (missing recent price data)
 SELL,NSE:APARINDS,,no longer rankable (missing recent price data)
 SELL,NSE:BSE,,below 200DEMA
 SELL,NSE:CEMPRO,,no longer rankable (missing recent price data)
-SELL,NSE:CGPOWER,,below 200DEMA
 SELL,NSE:CUMMINSIND,,below 200DEMA
 SELL,NSE:DATAPATTNS,,no longer rankable (missing recent price data)
 SELL,NSE:FEDERALBNK,,no longer rankable (missing recent price data)
@@ -19,33 +18,33 @@ SELL,NSE:POLYCAB,,below 200DEMA
 SELL,NSE:POWERINDIA,,below 200DEMA
 SELL,NSE:SCHNEIDER,,no longer rankable (missing recent price data)
 SELL,NSE:STARHEALTH,,no longer rankable (missing recent price data)
-HOLD,NSE:ADANIENSOL,12.0,"still eligible, rank within hold band"
-HOLD,NSE:ADANIGREEN,37.75,"still eligible, rank within hold band"
-HOLD,NSE:BHEL,15.75,"still eligible, rank within hold band"
-HOLD,NSE:HSCL,11.75,"still eligible, rank within hold band"
-HOLD,NSE:IDEA,23.75,"still eligible, rank within hold band"
-HOLD,NSE:J&KBANK,30.5,"still eligible, rank within hold band"
+HOLD,NSE:ADANIENSOL,8.0,"still eligible, rank within hold band"
+HOLD,NSE:ADANIGREEN,31.75,"still eligible, rank within hold band"
+HOLD,NSE:BHEL,14.25,"still eligible, rank within hold band"
+HOLD,NSE:CGPOWER,44.0,"still eligible, rank within hold band"
+HOLD,NSE:HSCL,9.75,"still eligible, rank within hold band"
+HOLD,NSE:IDEA,22.5,"still eligible, rank within hold band"
+HOLD,NSE:J&KBANK,30.25,"still eligible, rank within hold band"
 HOLD,NSE:LAURUSLABS,1.5,"still eligible, rank within hold band"
-HOLD,NSE:RRKABEL,4.0,"still eligible, rank within hold band"
-HOLD,NSE:SYRMA,6.0,"still eligible, rank within hold band"
-HOLD,NSE:WELCORP,3.25,"still eligible, rank within hold band"
-BUY,NSE:APOLLOHOSP,15.75,rank 15.75 among best available
-BUY,NSE:OFSS,16.5,rank 16.50 among best available
-BUY,NSE:BAJAJ-AUTO,18.5,rank 18.50 among best available
-BUY,NSE:SUNPHARMA,20.0,rank 20.00 among best available
-BUY,NSE:LALPATHLAB,21.75,rank 21.75 among best available
-BUY,NSE:MOTHERSON,23.25,rank 23.25 among best available
-BUY,NSE:ZYDUSLIFE,26.25,rank 26.25 among best available
-BUY,NSE:TVSMOTOR,26.5,rank 26.50 among best available
-BUY,NSE:KARURVYSYA,28.5,rank 28.50 among best available
-BUY,NSE:MANAPPURAM,28.75,rank 28.75 among best available
-BUY,NSE:EXIDEIND,29.5,rank 29.50 among best available
-BUY,NSE:CGCL,30.25,rank 30.25 among best available
-BUY,NSE:ADANIENT,30.25,rank 30.25 among best available
-BUY,NSE:RBLBANK,31.75,rank 31.75 among best available
-BUY,NSE:SHYAMMETL,32.0,rank 32.00 among best available
-BUY,NSE:BAJFINANCE,33.5,rank 33.50 among best available
-BUY,NSE:WOCKPHARMA,34.0,rank 34.00 among best available
-BUY,NSE:ABCAPITAL,34.5,rank 34.50 among best available
-BUY,NSE:BIOCON,35.5,rank 35.50 among best available
-BUY,NSE:REDINGTON,36.0,rank 36.00 among best available
+HOLD,NSE:RRKABEL,3.25,"still eligible, rank within hold band"
+HOLD,NSE:SYRMA,4.75,"still eligible, rank within hold band"
+HOLD,NSE:WELCORP,2.75,"still eligible, rank within hold band"
+BUY,NSE:OFSS,13.25,rank 13.25 among best available
+BUY,NSE:APOLLOHOSP,15.25,rank 15.25 among best available
+BUY,NSE:BAJAJ-AUTO,19.25,rank 19.25 among best available
+BUY,NSE:SUNPHARMA,19.75,rank 19.75 among best available
+BUY,NSE:MOTHERSON,19.75,rank 19.75 among best available
+BUY,NSE:LALPATHLAB,21.5,rank 21.50 among best available
+BUY,NSE:ZYDUSLIFE,23.5,rank 23.50 among best available
+BUY,NSE:MANAPPURAM,24.25,rank 24.25 among best available
+BUY,NSE:KARURVYSYA,25.0,rank 25.00 among best available
+BUY,NSE:RBLBANK,26.0,rank 26.00 among best available
+BUY,NSE:ADANIENT,26.25,rank 26.25 among best available
+BUY,NSE:EXIDEIND,27.5,rank 27.50 among best available
+BUY,NSE:CGCL,28.5,rank 28.50 among best available
+BUY,NSE:SHYAMMETL,30.5,rank 30.50 among best available
+BUY,NSE:ABCAPITAL,31.75,rank 31.75 among best available
+BUY,NSE:BAJFINANCE,32.0,rank 32.00 among best available
+BUY,NSE:WOCKPHARMA,32.0,rank 32.00 among best available
+BUY,NSE:ZYDUSWELL,32.75,rank 32.75 among best available
+BUY,NSE:BIOCON,34.0,rank 34.00 among best available
