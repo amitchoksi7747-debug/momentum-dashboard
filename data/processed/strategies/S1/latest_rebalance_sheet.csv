@@ -1,51 +1,45 @@
 Action,Symbol,AvgRank,Reason
-SELL,NSE:ABB,,below 200DEMA
-SELL,NSE:ABCAPITAL,,below 200DEMA
-SELL,NSE:ADANIPORTS,,below 200DEMA
-SELL,NSE:ADANIPOWER,,below 200DEMA
 SELL,NSE:APARINDS,,no longer rankable (missing recent price data)
-SELL,NSE:APOLLOHOSP,,below 200DEMA
 SELL,NSE:BSE,,below 200DEMA
-SELL,NSE:CUMMINSIND,,below 200DEMA
-SELL,NSE:FEDERALBNK,,below 200DEMA
+SELL,NSE:CUMMINSIND,,no longer rankable (missing recent price data)
+SELL,NSE:FEDERALBNK,,no longer rankable (missing recent price data)
 SELL,NSE:GVT&D,,below 200DEMA
 SELL,NSE:KEI,,below 200DEMA
 SELL,NSE:LLOYDSME,,no longer rankable (missing recent price data)
 SELL,NSE:MAHABANK,,below 200DEMA
-SELL,NSE:MARICO,,below 200DEMA
-SELL,NSE:NAM-INDIA,,below 200DEMA
+SELL,NSE:MARICO,,no longer rankable (missing recent price data)
+SELL,NSE:NAM-INDIA,,no longer rankable (missing recent price data)
 SELL,NSE:NLCINDIA,,below 200DEMA
-SELL,NSE:NYKAA,,below 200DEMA
-SELL,NSE:POLYCAB,,below 200DEMA
-SELL,NSE:POWERINDIA,,below 200DEMA
-SELL,NSE:ZYDUSLIFE,,below 200DEMA
-HOLD,NSE:ADANIENSOL,3.75,"still eligible, rank within hold band"
-HOLD,NSE:ADANIENT,9.0,"still eligible, rank within hold band"
-HOLD,NSE:ADANIGREEN,12.25,"still eligible, rank within hold band"
-HOLD,NSE:BHEL,5.25,"still eligible, rank within hold band"
-HOLD,NSE:CGPOWER,14.25,"still eligible, rank within hold band"
-HOLD,NSE:IDEA,7.0,"still eligible, rank within hold band"
-HOLD,NSE:LAURUSLABS,1.0,"still eligible, rank within hold band"
-HOLD,NSE:MOTHERSON,8.0,"still eligible, rank within hold band"
-HOLD,NSE:OFSS,5.25,"still eligible, rank within hold band"
-HOLD,NSE:SUNPHARMA,7.75,"still eligible, rank within hold band"
-BUY,NSE:BAJFINANCE,11.75,rank 11.75 among best available
-BUY,NSE:KALYANKJIL,15.5,rank 15.50 among best available
-BUY,NSE:IDFCFIRSTB,16.5,rank 16.50 among best available
-BUY,NSE:CHOLAFIN,17.0,rank 17.00 among best available
-BUY,NSE:SHRIRAMFIN,17.5,rank 17.50 among best available
-BUY,NSE:GAIL,18.0,rank 18.00 among best available
-BUY,NSE:LODHA,18.5,rank 18.50 among best available
-BUY,NSE:TECHM,20.0,rank 20.00 among best available
-BUY,NSE:GODREJPROP,23.75,rank 23.75 among best available
-BUY,NSE:ENDURANCE,23.75,rank 23.75 among best available
-BUY,NSE:ETERNAL,25.0,rank 25.00 among best available
-BUY,NSE:YESBANK,25.25,rank 25.25 among best available
-BUY,NSE:ATGL,25.5,rank 25.50 among best available
-BUY,NSE:COFORGE,25.5,rank 25.50 among best available
-BUY,NSE:OIL,25.5,rank 25.50 among best available
-BUY,NSE:DIXON,25.75,rank 25.75 among best available
-BUY,NSE:GLAXO,26.0,rank 26.00 among best available
-BUY,NSE:BHARTIARTL,27.25,rank 27.25 among best available
-BUY,NSE:M&M,28.0,rank 28.00 among best available
-BUY,NSE:HAL,28.75,rank 28.75 among best available
+SELL,NSE:NYKAA,,no longer rankable (missing recent price data)
+SELL,NSE:POLYCAB,,no longer rankable (missing recent price data)
+SELL,NSE:POWERINDIA,,no longer rankable (missing recent price data)
+HOLD,NSE:ABB,22.25,"still eligible, rank within hold band"
+HOLD,NSE:ABCAPITAL,15.75,"still eligible, rank within hold band"
+HOLD,NSE:ADANIENSOL,3.5,"still eligible, rank within hold band"
+HOLD,NSE:ADANIENT,14.75,"still eligible, rank within hold band"
+HOLD,NSE:ADANIGREEN,7.75,"still eligible, rank within hold band"
+HOLD,NSE:ADANIPORTS,13.75,"still eligible, rank within hold band"
+HOLD,NSE:ADANIPOWER,12.75,"still eligible, rank within hold band"
+HOLD,NSE:APOLLOHOSP,11.25,"still eligible, rank within hold band"
+HOLD,NSE:BHEL,7.75,"still eligible, rank within hold band"
+HOLD,NSE:CGPOWER,14.5,"still eligible, rank within hold band"
+HOLD,NSE:IDEA,9.25,"still eligible, rank within hold band"
+HOLD,NSE:LAURUSLABS,1.75,"still eligible, rank within hold band"
+HOLD,NSE:MOTHERSON,18.25,"still eligible, rank within hold band"
+HOLD,NSE:OFSS,6.75,"still eligible, rank within hold band"
+HOLD,NSE:SUNPHARMA,14.75,"still eligible, rank within hold band"
+HOLD,NSE:ZYDUSLIFE,13.5,"still eligible, rank within hold band"
+BUY,NSE:LUPIN,14.75,rank 14.75 among best available
+BUY,NSE:BIOCON,16.5,rank 16.50 among best available
+BUY,NSE:GMRAIRPORT,19.5,rank 19.50 among best available
+BUY,NSE:JSWINFRA,21.5,rank 21.50 among best available
+BUY,NSE:EXIDEIND,22.25,rank 22.25 among best available
+BUY,NSE:BAJAJ-AUTO,23.5,rank 23.50 among best available
+BUY,NSE:SHRIRAMFIN,25.5,rank 25.50 among best available
+BUY,NSE:LTF,27.25,rank 27.25 among best available
+BUY,NSE:ATGL,28.25,rank 28.25 among best available
+BUY,NSE:BAJFINANCE,28.75,rank 28.75 among best available
+BUY,NSE:GLENMARK,29.25,rank 29.25 among best available
+BUY,NSE:CHOLAFIN,29.25,rank 29.25 among best available
+BUY,NSE:YESBANK,31.0,rank 31.00 among best available
+BUY,NSE:GODREJPROP,31.75,rank 31.75 among best available
