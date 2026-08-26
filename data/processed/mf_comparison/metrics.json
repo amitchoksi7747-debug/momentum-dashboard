@@ -1,22 +1,22 @@
 {
   "status": "ok",
-  "run_timestamp": "2026-08-26T03:55:41Z",
+  "run_timestamp": "2026-08-26T19:54:26Z",
   "common_start": "2025-08-28",
-  "as_of_date": "2026-08-25",
+  "as_of_date": "2026-08-26",
   "funds": {
     "Axis Nifty500 Momentum50": {
       "category": "Index",
       "official_name": "Axis Nifty500 Momentum 50 Index Fund - Direct Plan - Growth Option",
       "inception": "2025-02-18",
-      "latest_date": "2026-08-25",
-      "latest_nav": 11.4382,
-      "return_1m": 0.05758455535625129,
-      "return_3m": 0.033177067808398686,
-      "return_6m": 0.044784844582066,
-      "return_ytd": 0.04874112922450635,
-      "since_inception_return": 0.18058336601779423,
-      "since_inception_cagr": 0.11588386096014403,
-      "common_window_return": 0.09688431994936675
+      "latest_date": "2026-08-26",
+      "latest_nav": 11.4751,
+      "return_1m": 0.0609963570464338,
+      "return_3m": 0.036004803047949174,
+      "return_6m": 0.043428051829961234,
+      "return_ytd": 0.05212440173839705,
+      "since_inception_return": 0.18439196581549444,
+      "since_inception_cagr": 0.11803464168499578,
+      "common_window_return": 0.10042290394039077
     },
     "Edelweiss Midcap150 Momentum50": {
       "category": "Index",
