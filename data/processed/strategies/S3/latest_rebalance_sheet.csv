@@ -19,7 +19,7 @@ SELL,NSE:STARHEALTH,,no longer rankable (missing recent price data)
 SELL,NSE:TRITURBINE,,below 200DEMA
 SELL,NSE:VTL,,below 200DEMA
 HOLD,NSE:BHEL,9.0,"still eligible, rank within hold band"
-HOLD,NSE:FINCABLES,27.25,"still eligible, rank within hold band"
+HOLD,NSE:FINCABLES,27.75,"still eligible, rank within hold band"
 HOLD,NSE:HSCL,24.75,"still eligible, rank within hold band"
 HOLD,NSE:IDEA,11.5,"still eligible, rank within hold band"
 HOLD,NSE:J&KBANK,36.5,"still eligible, rank within hold band"
@@ -32,7 +32,7 @@ HOLD,NSE:WELCORP,3.25,"still eligible, rank within hold band"
 BUY,NSE:OFSS,7.75,rank 7.75 among best available
 BUY,NSE:CGCL,16.75,rank 16.75 among best available
 BUY,NSE:MCX,17.75,rank 17.75 among best available
-BUY,NSE:LALPATHLAB,19.0,rank 19.00 among best available
+BUY,NSE:LALPATHLAB,18.75,rank 18.75 among best available
 BUY,NSE:JINDALSAW,21.25,rank 21.25 among best available
 BUY,NSE:IFCI,24.0,rank 24.00 among best available
 BUY,NSE:SHYAMMETL,24.0,rank 24.00 among best available
