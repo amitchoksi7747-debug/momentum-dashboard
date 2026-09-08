@@ -16,7 +16,7 @@ SELL,NSE:POWERINDIA,,no longer rankable (missing recent price data)
 SELL,NSE:SANSERA,,no longer rankable (missing recent price data)
 SELL,NSE:SCHNEIDER,,below 200DEMA
 SELL,NSE:TDPOWERSYS,,below 200DEMA
-HOLD,NSE:APOLLO,43.5,"still eligible, rank within hold band"
+HOLD,NSE:APOLLO,43.25,"still eligible, rank within hold band"
 HOLD,NSE:BHEL,14.25,"still eligible, rank within hold band"
 HOLD,NSE:CUPID,1.25,"still eligible, rank within hold band"
 HOLD,NSE:DIACABS,15.75,"still eligible, rank within hold band"
@@ -34,15 +34,15 @@ BUY,NSE:OFSS,13.5,rank 13.50 among best available
 BUY,NSE:AZAD,19.25,rank 19.25 among best available
 BUY,NSE:CGCL,22.0,rank 22.00 among best available
 BUY,NSE:MOTHERSON,22.5,rank 22.50 among best available
-BUY,NSE:ICIL,24.25,rank 24.25 among best available
+BUY,NSE:ICIL,24.0,rank 24.00 among best available
+BUY,NSE:MARKSANS,25.25,rank 25.25 among best available
 BUY,NSE:THYROCARE,25.5,rank 25.50 among best available
-BUY,NSE:MARKSANS,25.5,rank 25.50 among best available
 BUY,NSE:BAJAJ-AUTO,27.75,rank 27.75 among best available
 BUY,NSE:MCX,30.0,rank 30.00 among best available
 BUY,NSE:APOLLOHOSP,30.25,rank 30.25 among best available
-BUY,NSE:ZYDUSLIFE,32.0,rank 32.00 among best available
-BUY,NSE:HSCL,35.25,rank 35.25 among best available
-BUY,NSE:LALPATHLAB,36.5,rank 36.50 among best available
-BUY,NSE:SUNPHARMA,36.75,rank 36.75 among best available
-BUY,NSE:SHYAMMETL,38.0,rank 38.00 among best available
+BUY,NSE:ZYDUSLIFE,31.75,rank 31.75 among best available
+BUY,NSE:HSCL,35.0,rank 35.00 among best available
+BUY,NSE:LALPATHLAB,36.25,rank 36.25 among best available
+BUY,NSE:SUNPHARMA,36.5,rank 36.50 among best available
+BUY,NSE:SHYAMMETL,37.5,rank 37.50 among best available
 BUY,NSE:GAEL,39.5,rank 39.50 among best available
