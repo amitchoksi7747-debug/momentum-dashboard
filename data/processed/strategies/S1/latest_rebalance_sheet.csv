@@ -1,38 +1,37 @@
 Action,Symbol,AvgRank,Reason
-SELL,NSE:ADANIENSOL,,below 200DEMA
 SELL,NSE:ADANIGREEN,,below 200DEMA
 SELL,NSE:ADANIPORTS,,below 200DEMA
 SELL,NSE:ADANIPOWER,,below 200DEMA
 SELL,NSE:ATGL,,below 200DEMA
 SELL,NSE:GMRAIRPORT,,below 200DEMA
 SELL,NSE:LUPIN,,below 200DEMA
-HOLD,NSE:ABB,18.75,"still eligible, rank within hold band"
-HOLD,NSE:ABCAPITAL,18.25,"still eligible, rank within hold band"
-HOLD,NSE:ADANIENT,24.0,"still eligible, rank within hold band"
-HOLD,NSE:APOLLOHOSP,11.25,"still eligible, rank within hold band"
-HOLD,NSE:BAJAJ-AUTO,10.5,"still eligible, rank within hold band"
-HOLD,NSE:BAJFINANCE,29.75,"still eligible, rank within hold band"
-HOLD,NSE:BHEL,4.0,"still eligible, rank within hold band"
-HOLD,NSE:BIOCON,28.25,"still eligible, rank within hold band"
-HOLD,NSE:CGPOWER,19.5,"still eligible, rank within hold band"
-HOLD,NSE:CHOLAFIN,28.75,"still eligible, rank within hold band"
-HOLD,NSE:EXIDEIND,18.5,"still eligible, rank within hold band"
-HOLD,NSE:GLENMARK,25.25,"still eligible, rank within hold band"
-HOLD,NSE:GODREJPROP,46.5,"still eligible, rank within hold band"
-HOLD,NSE:IDEA,9.0,"still eligible, rank within hold band"
-HOLD,NSE:JSWINFRA,26.25,"still eligible, rank within hold band"
-HOLD,NSE:LAURUSLABS,1.75,"still eligible, rank within hold band"
+HOLD,NSE:ABB,20.5,"still eligible, rank within hold band"
+HOLD,NSE:ABCAPITAL,17.75,"still eligible, rank within hold band"
+HOLD,NSE:ADANIENSOL,19.75,"still eligible, rank within hold band"
+HOLD,NSE:ADANIENT,26.75,"still eligible, rank within hold band"
+HOLD,NSE:APOLLOHOSP,11.0,"still eligible, rank within hold band"
+HOLD,NSE:BAJAJ-AUTO,12.0,"still eligible, rank within hold band"
+HOLD,NSE:BAJFINANCE,31.5,"still eligible, rank within hold band"
+HOLD,NSE:BHEL,5.0,"still eligible, rank within hold band"
+HOLD,NSE:BIOCON,30.0,"still eligible, rank within hold band"
+HOLD,NSE:CGPOWER,20.0,"still eligible, rank within hold band"
+HOLD,NSE:CHOLAFIN,32.5,"still eligible, rank within hold band"
+HOLD,NSE:EXIDEIND,21.0,"still eligible, rank within hold band"
+HOLD,NSE:GLENMARK,26.75,"still eligible, rank within hold band"
+HOLD,NSE:GODREJPROP,47.75,"still eligible, rank within hold band"
+HOLD,NSE:IDEA,6.5,"still eligible, rank within hold band"
+HOLD,NSE:JSWINFRA,28.0,"still eligible, rank within hold band"
+HOLD,NSE:LAURUSLABS,1.5,"still eligible, rank within hold band"
 HOLD,NSE:LTF,28.0,"still eligible, rank within hold band"
-HOLD,NSE:MOTHERSON,7.75,"still eligible, rank within hold band"
+HOLD,NSE:MOTHERSON,8.75,"still eligible, rank within hold band"
 HOLD,NSE:OFSS,5.25,"still eligible, rank within hold band"
-HOLD,NSE:SHRIRAMFIN,22.0,"still eligible, rank within hold band"
-HOLD,NSE:SUNPHARMA,14.5,"still eligible, rank within hold band"
-HOLD,NSE:YESBANK,40.5,"still eligible, rank within hold band"
-HOLD,NSE:ZYDUSLIFE,12.0,"still eligible, rank within hold band"
-BUY,NSE:MCX,11.25,rank 11.25 among best available
-BUY,NSE:TVSMOTOR,22.0,rank 22.00 among best available
-BUY,NSE:MAHABANK,22.25,rank 22.25 among best available
-BUY,NSE:SAIL,23.75,rank 23.75 among best available
-BUY,NSE:IDFCFIRSTB,27.75,rank 27.75 among best available
-BUY,NSE:UNITDSPR,28.5,rank 28.50 among best available
-BUY,NSE:KALYANKJIL,29.0,rank 29.00 among best available
+HOLD,NSE:SHRIRAMFIN,23.5,"still eligible, rank within hold band"
+HOLD,NSE:SUNPHARMA,16.75,"still eligible, rank within hold band"
+HOLD,NSE:YESBANK,42.5,"still eligible, rank within hold band"
+HOLD,NSE:ZYDUSLIFE,13.75,"still eligible, rank within hold band"
+BUY,NSE:MCX,13.25,rank 13.25 among best available
+BUY,NSE:MAHABANK,21.0,rank 21.00 among best available
+BUY,NSE:SAIL,24.25,rank 24.25 among best available
+BUY,NSE:TVSMOTOR,25.25,rank 25.25 among best available
+BUY,NSE:UNITDSPR,26.75,rank 26.75 among best available
+BUY,NSE:UNIONBANK,29.25,rank 29.25 among best available
