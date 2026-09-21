@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "run_timestamp": "2026-09-19T07:53:46Z",
+  "run_timestamp": "2026-09-21T21:54:39Z",
   "common_start": "2025-08-28",
   "as_of_date": "2026-09-18",
   "funds": {
@@ -59,20 +59,6 @@
       "since_inception_return": 0.10522641133054056,
       "since_inception_cagr": 0.09929807696242521,
       "common_window_return": 0.10522641133054056
-    },
-    "Motilal Oswal Active Momentum": {
-      "category": "Active",
-      "official_name": "Motilal Oswal Active Momentum Fund - Direct Plan - Growth",
-      "inception": "2025-03-21",
-      "latest_date": "2026-09-18",
-      "latest_nav": 14.5465,
-      "return_1m": 0.021911398985570374,
-      "return_3m": 0.054262273695806496,
-      "return_6m": 0.2868453644727529,
-      "return_ytd": 0.18417303668970453,
-      "since_inception_return": 0.45248579616371587,
-      "since_inception_cagr": 0.28364735827026477,
-      "common_window_return": 0.3179400759243656
     },
     "Nippon Active Momentum": {
       "category": "Active",
