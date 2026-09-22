@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "run_timestamp": "2026-09-22T08:21:22Z",
+  "run_timestamp": "2026-09-22T21:09:33Z",
   "common_start": "2025-08-28",
   "as_of_date": "2026-09-18",
   "funds": {
@@ -73,6 +73,20 @@
       "since_inception_return": 0.45248579616371587,
       "since_inception_cagr": 0.28364735827026477,
       "common_window_return": 0.3179400759243656
+    },
+    "Nippon Active Momentum": {
+      "category": "Active",
+      "official_name": "Nippon India Active Momentum Fund - Direct Plan - Growth Option",
+      "inception": "2025-03-03",
+      "latest_date": "2026-09-18",
+      "latest_nav": 13.0459,
+      "return_1m": -0.024620192595250945,
+      "return_3m": 0.027656993414626463,
+      "return_6m": 0.12631660738336148,
+      "return_ytd": 0.06801417917168084,
+      "since_inception_return": 0.30653673974221607,
+      "since_inception_cagr": 0.18905270865403612,
+      "common_window_return": 0.1396088297212541
     }
   }
 }
