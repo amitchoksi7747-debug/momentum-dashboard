@@ -17,12 +17,12 @@ SELL,NSE:MAHABANK,,below 200DEMA
 SELL,NSE:POWERINDIA,,below 200DEMA
 SELL,NSE:SANSERA,,no longer rankable (missing recent price data)
 SELL,NSE:SCHNEIDER,,below 200DEMA
+SELL,NSE:SHILPAMED,,no longer rankable (missing recent price data)
 SELL,NSE:TDPOWERSYS,,below 200DEMA
 SELL,NSE:THANGAMAYL,,below 200DEMA
 HOLD,NSE:APOLLO,29.25,"still eligible, rank within hold band"
 HOLD,NSE:BHEL,19.0,"still eligible, rank within hold band"
 HOLD,NSE:CUPID,1.0,"still eligible, rank within hold band"
-HOLD,NSE:DIACABS,15.0,"still eligible, rank within hold band"
 HOLD,NSE:GRWRHITECH,8.0,"still eligible, rank within hold band"
 HOLD,NSE:LAURUSLABS,5.5,"still eligible, rank within hold band"
 HOLD,NSE:PARAS,18.0,"still eligible, rank within hold band"
@@ -31,6 +31,7 @@ HOLD,NSE:SYRMA,2.75,"still eligible, rank within hold band"
 HOLD,NSE:WELCORP,6.5,"still eligible, rank within hold band"
 BUY,NSE:SKYGOLD,7.75,rank 7.75 among best available
 BUY,NSE:AZAD,14.0,rank 14.00 among best available
+BUY,NSE:DIACABS,15.0,rank 15.00 among best available
 BUY,NSE:LLOYDSENGG,19.25,rank 19.25 among best available
 BUY,NSE:MARKSANS,19.25,rank 19.25 among best available
 BUY,NSE:MOTHERSON,21.0,rank 21.00 among best available
