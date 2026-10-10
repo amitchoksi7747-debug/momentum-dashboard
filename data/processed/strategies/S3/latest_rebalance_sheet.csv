@@ -9,7 +9,6 @@ SELL,NSE:DATAPATTNS,,no longer rankable (missing recent price data)
 SELL,NSE:FEDERALBNK,,no longer rankable (missing recent price data)
 SELL,NSE:GVT&D,,below 200DEMA
 SELL,NSE:HFCL,,no longer rankable (missing recent price data)
-SELL,NSE:IDEA,,below 200DEMA
 SELL,NSE:J&KBANK,,below 200DEMA
 SELL,NSE:JBCHEPHARM,,below 200DEMA
 SELL,NSE:LLOYDSME,,no longer rankable (missing recent price data)
@@ -21,33 +20,33 @@ SELL,NSE:SONACOMS,,no longer rankable (missing recent price data)
 SELL,NSE:STARHEALTH,,no longer rankable (missing recent price data)
 SELL,NSE:TRITURBINE,,below 200DEMA
 SELL,NSE:VTL,,below 200DEMA
-HOLD,NSE:BHEL,10.0,"still eligible, rank within hold band"
-HOLD,NSE:FINCABLES,14.0,"still eligible, rank within hold band"
-HOLD,NSE:HSCL,13.5,"still eligible, rank within hold band"
+HOLD,NSE:BHEL,10.5,"still eligible, rank within hold band"
+HOLD,NSE:FINCABLES,14.75,"still eligible, rank within hold band"
+HOLD,NSE:HSCL,12.75,"still eligible, rank within hold band"
+HOLD,NSE:IDEA,15.5,"still eligible, rank within hold band"
 HOLD,NSE:LAURUSLABS,2.25,"still eligible, rank within hold band"
-HOLD,NSE:NETWEB,26.25,"still eligible, rank within hold band"
-HOLD,NSE:RRKABEL,3.75,"still eligible, rank within hold band"
-HOLD,NSE:SYRMA,2.75,"still eligible, rank within hold band"
-HOLD,NSE:WELCORP,3.0,"still eligible, rank within hold band"
-BUY,NSE:CGCL,12.0,rank 12.00 among best available
-BUY,NSE:LALPATHLAB,12.5,rank 12.50 among best available
-BUY,NSE:RBLBANK,13.5,rank 13.50 among best available
-BUY,NSE:OFSS,15.0,rank 15.00 among best available
-BUY,NSE:MCX,15.5,rank 15.50 among best available
-BUY,NSE:SHYAMMETL,16.75,rank 16.75 among best available
-BUY,NSE:REDINGTON,18.5,rank 18.50 among best available
-BUY,NSE:WOCKPHARMA,19.25,rank 19.25 among best available
-BUY,NSE:GESHIP,20.0,rank 20.00 among best available
-BUY,NSE:JSWINFRA,20.0,rank 20.00 among best available
-BUY,NSE:JINDALSAW,22.75,rank 22.75 among best available
-BUY,NSE:KARURVYSYA,23.25,rank 23.25 among best available
-BUY,NSE:CARTRADE,24.0,rank 24.00 among best available
-BUY,NSE:ENGINERSIN,25.0,rank 25.00 among best available
-BUY,NSE:CUB,25.75,rank 25.75 among best available
-BUY,NSE:SAIL,29.0,rank 29.00 among best available
+HOLD,NSE:NETWEB,27.0,"still eligible, rank within hold band"
+HOLD,NSE:RRKABEL,4.0,"still eligible, rank within hold band"
+HOLD,NSE:SYRMA,2.0,"still eligible, rank within hold band"
+HOLD,NSE:WELCORP,4.0,"still eligible, rank within hold band"
+BUY,NSE:CGCL,11.25,rank 11.25 among best available
+BUY,NSE:RBLBANK,13.75,rank 13.75 among best available
+BUY,NSE:LALPATHLAB,14.0,rank 14.00 among best available
+BUY,NSE:MCX,16.5,rank 16.50 among best available
+BUY,NSE:OFSS,16.75,rank 16.75 among best available
+BUY,NSE:SHYAMMETL,17.5,rank 17.50 among best available
+BUY,NSE:REDINGTON,19.75,rank 19.75 among best available
+BUY,NSE:GESHIP,20.25,rank 20.25 among best available
+BUY,NSE:WOCKPHARMA,20.25,rank 20.25 among best available
+BUY,NSE:JSWINFRA,21.75,rank 21.75 among best available
+BUY,NSE:JINDALSAW,21.75,rank 21.75 among best available
+BUY,NSE:KARURVYSYA,22.0,rank 22.00 among best available
+BUY,NSE:CUB,25.5,rank 25.50 among best available
+BUY,NSE:CARTRADE,25.75,rank 25.75 among best available
+BUY,NSE:ENGINERSIN,26.5,rank 26.50 among best available
+BUY,NSE:SAIL,28.75,rank 28.75 among best available
 BUY,NSE:TBOTEK,29.0,rank 29.00 among best available
-BUY,NSE:EXIDEIND,29.5,rank 29.50 among best available
-BUY,NSE:IDFCFIRSTB,30.5,rank 30.50 among best available
-BUY,NSE:PPLPHARMA,31.5,rank 31.50 among best available
-BUY,NSE:GLENMARK,32.5,rank 32.50 among best available
-BUY,NSE:TATATECH,33.5,rank 33.50 among best available
+BUY,NSE:EXIDEIND,29.0,rank 29.00 among best available
+BUY,NSE:IDFCFIRSTB,32.0,rank 32.00 among best available
+BUY,NSE:PPLPHARMA,32.75,rank 32.75 among best available
+BUY,NSE:APLAPOLLO,33.25,rank 33.25 among best available
