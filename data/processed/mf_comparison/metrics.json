@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "run_timestamp": "2026-10-26T22:32:06Z",
+  "run_timestamp": "2026-10-27T08:45:15Z",
   "common_start": "2025-08-28",
   "as_of_date": "2026-10-26",
   "funds": {
@@ -50,15 +50,15 @@
       "category": "Active",
       "official_name": "Kotak Active Momentum Fund - Direct Plan - Growth Option",
       "inception": "2025-08-28",
-      "latest_date": "2026-10-23",
-      "latest_nav": 9.974,
-      "return_1m": -0.10329946956756264,
-      "return_3m": -0.0780181179515621,
-      "return_6m": -0.0397612400115529,
-      "return_ytd": -0.060563247621738814,
-      "since_inception_return": -0.005186515060841779,
-      "since_inception_cagr": -0.004501250459730488,
-      "common_window_return": -0.005186515060841779
+      "latest_date": "2026-10-26",
+      "latest_nav": 10.11,
+      "return_1m": -0.07738638437671119,
+      "return_3m": -0.06397555781872055,
+      "return_6m": -0.01739722033239388,
+      "return_ytd": -0.04775360271263085,
+      "since_inception_return": 0.008378216636744318,
+      "since_inception_cagr": 0.007213143853670889,
+      "common_window_return": 0.008378216636744318
     },
     "Motilal Oswal Active Momentum": {
       "category": "Active",
