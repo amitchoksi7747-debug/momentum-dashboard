@@ -1,22 +1,22 @@
 {
   "status": "ok",
-  "run_timestamp": "2026-10-30T09:43:29Z",
+  "run_timestamp": "2026-10-30T22:09:10Z",
   "common_start": "2025-08-28",
-  "as_of_date": "2026-10-29",
+  "as_of_date": "2026-10-30",
   "funds": {
     "Axis Nifty500 Momentum50": {
       "category": "Index",
       "official_name": "Axis Nifty500 Momentum 50 Index Fund - Direct Plan - Growth Option",
       "inception": "2025-02-18",
-      "latest_date": "2026-10-29",
-      "latest_nav": 10.7351,
-      "return_1m": -0.017588974403558222,
-      "return_3m": -0.014024871874942724,
-      "return_6m": -0.002536608934810114,
-      "return_ytd": -0.015724423743421423,
-      "since_inception_return": 0.10801354168816957,
-      "since_inception_cagr": 0.06249525755820429,
-      "common_window_return": 0.029459430949663856
+      "latest_date": "2026-10-30",
+      "latest_nav": 10.6562,
+      "return_1m": -0.024050261933545758,
+      "return_3m": -0.01525694694722457,
+      "return_6m": -0.00240593901833952,
+      "return_ytd": -0.022958575541415227,
+      "since_inception_return": 0.09986995025081025,
+      "since_inception_cagr": 0.05777685526347587,
+      "common_window_return": 0.02189319038349047
     },
     "Edelweiss Midcap150 Momentum50": {
       "category": "Index",
@@ -50,15 +50,15 @@
       "category": "Active",
       "official_name": "Kotak Active Momentum Fund - Direct Plan - Growth Option",
       "inception": "2025-08-28",
-      "latest_date": "2026-10-29",
-      "latest_nav": 10.378,
-      "return_1m": -0.026179975602890093,
-      "return_3m": -0.07289619438985173,
-      "return_6m": -0.0011549566891242424,
-      "return_ytd": -0.02251106715644724,
-      "since_inception_return": 0.03510871733492915,
-      "since_inception_cagr": 0.029956284366191577,
-      "common_window_return": 0.03510871733492915
+      "latest_date": "2026-10-30",
+      "latest_nav": 10.329,
+      "return_1m": -0.030504974657405648,
+      "return_3m": -0.07801481745960892,
+      "return_6m": 0.006823277122526505,
+      "return_ytd": -0.027126306866346428,
+      "since_inception_return": 0.030221424296828392,
+      "since_inception_cagr": 0.025734108940036915,
+      "common_window_return": 0.030221424296828392
     },
     "Motilal Oswal Active Momentum": {
       "category": "Active",
@@ -78,15 +78,15 @@
       "category": "Active",
       "official_name": "Nippon India Active Momentum Fund - Direct Plan - Growth Option",
       "inception": "2025-03-03",
-      "latest_date": "2026-10-29",
-      "latest_nav": 12.2863,
-      "return_1m": -0.016954441439567258,
-      "return_3m": -0.06398653075528338,
-      "return_6m": 0.0091416837782341,
-      "return_ytd": 0.005828851176003624,
-      "since_inception_return": 0.23046339045177322,
-      "since_inception_cagr": 0.1333816693001426,
-      "common_window_return": 0.07325488962848437
+      "latest_date": "2026-10-30",
+      "latest_nav": 12.2652,
+      "return_1m": -0.017793936287778034,
+      "return_3m": -0.067710550319246,
+      "return_6m": 0.01923764095830882,
+      "return_ytd": 0.004101480953901282,
+      "since_inception_return": 0.228350241860372,
+      "since_inception_cagr": 0.13197421290980293,
+      "common_window_return": 0.07141172462590739
     }
   }
 }
