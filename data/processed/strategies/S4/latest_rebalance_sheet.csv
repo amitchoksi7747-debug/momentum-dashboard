@@ -1,45 +1,52 @@
 Action,Symbol,AvgRank,Reason
 SELL,NSE:ACUTAAS,,no longer rankable (missing recent price data)
+SELL,NSE:ADANIENSOL,,below 200DEMA
+SELL,NSE:ADANIGREEN,,below 200DEMA
+SELL,NSE:ADANIPOWER,,below 200DEMA
 SELL,NSE:ANANDRATHI,,no longer rankable (missing recent price data)
 SELL,NSE:APARINDS,,no longer rankable (missing recent price data)
 SELL,NSE:ARVIND,,no longer rankable (missing recent price data)
 SELL,NSE:ASTRAMICRO,,no longer rankable (missing recent price data)
 SELL,NSE:AVALON,,no longer rankable (missing recent price data)
+SELL,NSE:BBOX,,below 200DEMA
 SELL,NSE:BSE,,below 200DEMA
 SELL,NSE:FEDERALBNK,,no longer rankable (missing recent price data)
 SELL,NSE:HFCL,,no longer rankable (missing recent price data)
+SELL,NSE:IDEA,,below 200DEMA
 SELL,NSE:MAHABANK,,below 200DEMA
-SELL,NSE:POWERINDIA,,no longer rankable (missing recent price data)
+SELL,NSE:POWERINDIA,,below 200DEMA
 SELL,NSE:SANSERA,,no longer rankable (missing recent price data)
-SELL,NSE:SCHNEIDER,,no longer rankable (missing recent price data)
+SELL,NSE:SCHNEIDER,,below 200DEMA
+SELL,NSE:SHILPAMED,,no longer rankable (missing recent price data)
 SELL,NSE:TDPOWERSYS,,below 200DEMA
-HOLD,NSE:ADANIENSOL,12.0,"still eligible, rank within hold band"
-HOLD,NSE:ADANIGREEN,20.25,"still eligible, rank within hold band"
-HOLD,NSE:ADANIPOWER,35.75,"still eligible, rank within hold band"
-HOLD,NSE:APOLLO,38.5,"still eligible, rank within hold band"
-HOLD,NSE:BBOX,17.25,"still eligible, rank within hold band"
-HOLD,NSE:BHEL,21.25,"still eligible, rank within hold band"
-HOLD,NSE:CUPID,1.25,"still eligible, rank within hold band"
-HOLD,NSE:DIACABS,26.0,"still eligible, rank within hold band"
+SELL,NSE:THANGAMAYL,,below 200DEMA
+HOLD,NSE:APOLLO,26.5,"still eligible, rank within hold band"
+HOLD,NSE:BHEL,23.75,"still eligible, rank within hold band"
+HOLD,NSE:CUPID,1.0,"still eligible, rank within hold band"
 HOLD,NSE:GRWRHITECH,7.0,"still eligible, rank within hold band"
-HOLD,NSE:IDEA,28.5,"still eligible, rank within hold band"
-HOLD,NSE:LAURUSLABS,5.75,"still eligible, rank within hold band"
-HOLD,NSE:PARAS,31.5,"still eligible, rank within hold band"
-HOLD,NSE:RRKABEL,13.5,"still eligible, rank within hold band"
-HOLD,NSE:SYRMA,8.0,"still eligible, rank within hold band"
-HOLD,NSE:THANGAMAYL,11.0,"still eligible, rank within hold band"
-HOLD,NSE:WELCORP,3.75,"still eligible, rank within hold band"
-BUY,NSE:JBCHEPHARM,6.5,rank 6.50 among best available
-BUY,NSE:SKYGOLD,13.75,rank 13.75 among best available
-BUY,NSE:J&KBANK,15.25,rank 15.25 among best available
-BUY,NSE:OFSS,18.75,rank 18.75 among best available
-BUY,NSE:CGCL,22.25,rank 22.25 among best available
-BUY,NSE:SPARC,22.25,rank 22.25 among best available
-BUY,NSE:HSCL,27.0,rank 27.00 among best available
-BUY,NSE:APOLLOHOSP,28.25,rank 28.25 among best available
-BUY,NSE:MARKSANS,34.0,rank 34.00 among best available
-BUY,NSE:ZYDUSLIFE,34.0,rank 34.00 among best available
-BUY,NSE:RAIN,35.0,rank 35.00 among best available
-BUY,NSE:ADANIENT,37.5,rank 37.50 among best available
-BUY,NSE:THYROCARE,38.25,rank 38.25 among best available
-BUY,NSE:ADANIPORTS,38.5,rank 38.50 among best available
+HOLD,NSE:LAURUSLABS,2.5,"still eligible, rank within hold band"
+HOLD,NSE:PARAS,15.25,"still eligible, rank within hold band"
+HOLD,NSE:RRKABEL,20.75,"still eligible, rank within hold band"
+HOLD,NSE:SYRMA,3.0,"still eligible, rank within hold band"
+HOLD,NSE:WELCORP,5.0,"still eligible, rank within hold band"
+BUY,NSE:DIACABS,6.75,rank 6.75 among best available
+BUY,NSE:SKYGOLD,11.75,rank 11.75 among best available
+BUY,NSE:ZYDUSLIFE,12.5,rank 12.50 among best available
+BUY,NSE:MARKSANS,14.5,rank 14.50 among best available
+BUY,NSE:ICIL,18.25,rank 18.25 among best available
+BUY,NSE:SHYAMMETL,19.25,rank 19.25 among best available
+BUY,NSE:MOTHERSON,19.75,rank 19.75 among best available
+BUY,NSE:KARURVYSYA,23.25,rank 23.25 among best available
+BUY,NSE:LALPATHLAB,23.25,rank 23.25 among best available
+BUY,NSE:MCX,24.0,rank 24.00 among best available
+BUY,NSE:CCAVENUE,24.5,rank 24.50 among best available
+BUY,NSE:GESHIP,25.75,rank 25.75 among best available
+BUY,NSE:RAIN,28.75,rank 28.75 among best available
+BUY,NSE:ADANIPORTS,29.25,rank 29.25 among best available
+BUY,NSE:TIPSMUSIC,29.5,rank 29.50 among best available
+BUY,NSE:LLOYDSENGG,29.75,rank 29.75 among best available
+BUY,NSE:AZAD,29.75,rank 29.75 among best available
+BUY,NSE:CGCL,32.0,rank 32.00 among best available
+BUY,NSE:PPLPHARMA,32.0,rank 32.00 among best available
+BUY,NSE:TVSMOTOR,33.5,rank 33.50 among best available
+BUY,NSE:FINCABLES,33.5,rank 33.50 among best available
