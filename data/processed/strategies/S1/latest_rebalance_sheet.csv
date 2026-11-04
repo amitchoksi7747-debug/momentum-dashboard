@@ -20,33 +20,33 @@ SELL,NSE:LUPIN,,below 200DEMA
 SELL,NSE:SHRIRAMFIN,,below 200DEMA
 SELL,NSE:SUNPHARMA,,below 200DEMA
 SELL,NSE:YESBANK,,below 200DEMA
-HOLD,NSE:ADANIPORTS,9.5,"still eligible, rank within hold band"
-HOLD,NSE:APOLLOHOSP,16.25,"still eligible, rank within hold band"
-HOLD,NSE:BAJAJ-AUTO,11.5,"still eligible, rank within hold band"
-HOLD,NSE:BHEL,9.0,"still eligible, rank within hold band"
-HOLD,NSE:JSWINFRA,19.5,"still eligible, rank within hold band"
+HOLD,NSE:ADANIPORTS,8.25,"still eligible, rank within hold band"
+HOLD,NSE:APOLLOHOSP,15.75,"still eligible, rank within hold band"
+HOLD,NSE:BAJAJ-AUTO,11.75,"still eligible, rank within hold band"
+HOLD,NSE:BHEL,8.0,"still eligible, rank within hold band"
+HOLD,NSE:JSWINFRA,19.25,"still eligible, rank within hold band"
 HOLD,NSE:LAURUSLABS,1.0,"still eligible, rank within hold band"
 HOLD,NSE:MOTHERSON,5.25,"still eligible, rank within hold band"
-HOLD,NSE:OFSS,15.75,"still eligible, rank within hold band"
+HOLD,NSE:OFSS,14.75,"still eligible, rank within hold band"
 HOLD,NSE:ZYDUSLIFE,4.0,"still eligible, rank within hold band"
 BUY,NSE:MCX,7.5,rank 7.50 among best available
-BUY,NSE:TVSMOTOR,10.25,rank 10.25 among best available
-BUY,NSE:ETERNAL,11.75,rank 11.75 among best available
-BUY,NSE:COFORGE,13.25,rank 13.25 among best available
-BUY,NSE:TECHM,14.0,rank 14.00 among best available
-BUY,NSE:UNIONBANK,15.25,rank 15.25 among best available
-BUY,NSE:APLAPOLLO,15.75,rank 15.75 among best available
-BUY,NSE:KOTAKBANK,16.5,rank 16.50 among best available
-BUY,NSE:HAL,19.0,rank 19.00 among best available
-BUY,NSE:DRREDDY,19.0,rank 19.00 among best available
-BUY,NSE:PERSISTENT,20.75,rank 20.75 among best available
-BUY,NSE:PNB,21.75,rank 21.75 among best available
-BUY,NSE:PETRONET,23.75,rank 23.75 among best available
-BUY,NSE:BHARTIARTL,24.5,rank 24.50 among best available
+BUY,NSE:TVSMOTOR,10.5,rank 10.50 among best available
+BUY,NSE:ETERNAL,12.75,rank 12.75 among best available
+BUY,NSE:COFORGE,13.5,rank 13.50 among best available
+BUY,NSE:TECHM,13.75,rank 13.75 among best available
+BUY,NSE:UNIONBANK,15.75,rank 15.75 among best available
+BUY,NSE:APLAPOLLO,16.5,rank 16.50 among best available
+BUY,NSE:KOTAKBANK,16.75,rank 16.75 among best available
+BUY,NSE:DRREDDY,18.75,rank 18.75 among best available
+BUY,NSE:HAL,19.5,rank 19.50 among best available
+BUY,NSE:PERSISTENT,21.25,rank 21.25 among best available
+BUY,NSE:PNB,21.5,rank 21.50 among best available
 BUY,NSE:DLF,24.5,rank 24.50 among best available
-BUY,NSE:KALYANKJIL,25.0,rank 25.00 among best available
-BUY,NSE:GLAXO,26.25,rank 26.25 among best available
-BUY,NSE:NAUKRI,26.5,rank 26.50 among best available
+BUY,NSE:KALYANKJIL,24.5,rank 24.50 among best available
+BUY,NSE:PETRONET,24.5,rank 24.50 among best available
+BUY,NSE:BHARTIARTL,24.75,rank 24.75 among best available
 BUY,NSE:HCLTECH,26.75,rank 26.75 among best available
-BUY,NSE:GAIL,27.25,rank 27.25 among best available
-BUY,NSE:LODHA,27.75,rank 27.75 among best available
+BUY,NSE:GLAXO,26.75,rank 26.75 among best available
+BUY,NSE:LODHA,27.25,rank 27.25 among best available
+BUY,NSE:NAUKRI,27.5,rank 27.50 among best available
+BUY,NSE:GAIL,28.0,rank 28.00 among best available
