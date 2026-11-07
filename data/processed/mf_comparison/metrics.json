@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "run_timestamp": "2026-11-06T22:56:38Z",
+  "run_timestamp": "2026-11-07T09:42:56Z",
   "common_start": "2025-08-28",
   "as_of_date": "2026-11-06",
   "funds": {
@@ -64,29 +64,29 @@
       "category": "Active",
       "official_name": "Motilal Oswal Active Momentum Fund - Direct Plan - Growth",
       "inception": "2025-03-21",
-      "latest_date": "2026-11-05",
-      "latest_nav": 14.1806,
-      "return_1m": -0.023118998084898257,
-      "return_3m": 0.013703722236916516,
-      "return_6m": 0.13590195450176235,
-      "return_ytd": 0.15438656474629808,
-      "since_inception_return": 0.41595023415111476,
-      "since_inception_cagr": 0.23845222078216066,
-      "common_window_return": 0.28478885234613527
+      "latest_date": "2026-11-06",
+      "latest_nav": 13.9798,
+      "return_1m": -0.047015917379597094,
+      "return_3m": -0.004932700315322669,
+      "return_6m": 0.1079603094090793,
+      "return_ytd": 0.13804023086754413,
+      "since_inception_return": 0.39590010883783133,
+      "since_inception_cagr": 0.22721622723065038,
+      "common_window_return": 0.2665959972094625
     },
     "Nippon Active Momentum": {
       "category": "Active",
       "official_name": "Nippon India Active Momentum Fund - Direct Plan - Growth Option",
       "inception": "2025-03-03",
-      "latest_date": "2026-11-05",
-      "latest_nav": 13.0026,
-      "return_1m": 0.04967184132135327,
-      "return_3m": -0.02964947499608217,
-      "return_6m": 0.07459504132231398,
-      "return_ytd": 0.06446938625144294,
-      "since_inception_return": 0.3022002784148381,
-      "since_inception_cagr": 0.1706882930844451,
-      "common_window_return": 0.13582641054534972
+      "latest_date": "2026-11-06",
+      "latest_nav": 13.0764,
+      "return_1m": 0.040311224611566,
+      "return_3m": -0.024738777306255177,
+      "return_6m": 0.06260360799609943,
+      "return_ytd": 0.07051108873443535,
+      "since_inception_return": 0.30959129102362537,
+      "since_inception_cagr": 0.17434092879815166,
+      "common_window_return": 0.14227312036478956
     }
   }
 }

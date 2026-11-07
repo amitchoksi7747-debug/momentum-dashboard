@@ -23,33 +23,33 @@ SELL,NSE:SONACOMS,,no longer rankable (missing recent price data)
 SELL,NSE:STARHEALTH,,no longer rankable (missing recent price data)
 SELL,NSE:TRITURBINE,,below 200DEMA
 SELL,NSE:VTL,,below 200DEMA
-HOLD,NSE:BHEL,11.25,"still eligible, rank within hold band"
-HOLD,NSE:FINCABLES,16.75,"still eligible, rank within hold band"
+HOLD,NSE:BHEL,10.25,"still eligible, rank within hold band"
+HOLD,NSE:FINCABLES,16.5,"still eligible, rank within hold band"
 HOLD,NSE:LAURUSLABS,1.75,"still eligible, rank within hold band"
-HOLD,NSE:RRKABEL,9.5,"still eligible, rank within hold band"
-HOLD,NSE:SYRMA,1.75,"still eligible, rank within hold band"
-HOLD,NSE:WELCORP,2.75,"still eligible, rank within hold band"
-BUY,NSE:SHYAMMETL,7.5,rank 7.50 among best available
-BUY,NSE:LALPATHLAB,9.75,rank 9.75 among best available
-BUY,NSE:MCX,12.25,rank 12.25 among best available
+HOLD,NSE:RRKABEL,9.25,"still eligible, rank within hold band"
+HOLD,NSE:SYRMA,2.0,"still eligible, rank within hold band"
+HOLD,NSE:WELCORP,2.5,"still eligible, rank within hold band"
+BUY,NSE:SHYAMMETL,7.25,rank 7.25 among best available
+BUY,NSE:LALPATHLAB,10.75,rank 10.75 among best available
 BUY,NSE:KARURVYSYA,12.5,rank 12.50 among best available
-BUY,NSE:GESHIP,14.25,rank 14.25 among best available
-BUY,NSE:CGCL,15.5,rank 15.50 among best available
-BUY,NSE:PPLPHARMA,16.0,rank 16.00 among best available
+BUY,NSE:MCX,13.5,rank 13.50 among best available
+BUY,NSE:GESHIP,13.75,rank 13.75 among best available
+BUY,NSE:CGCL,15.25,rank 15.25 among best available
+BUY,NSE:PPLPHARMA,15.75,rank 15.75 among best available
 BUY,NSE:WOCKPHARMA,18.5,rank 18.50 among best available
-BUY,NSE:COFORGE,19.5,rank 19.50 among best available
-BUY,NSE:REDINGTON,20.25,rank 20.25 among best available
-BUY,NSE:OFSS,21.0,rank 21.00 among best available
-BUY,NSE:APLAPOLLO,22.75,rank 22.75 among best available
-BUY,NSE:CUB,23.75,rank 23.75 among best available
-BUY,NSE:ENGINERSIN,24.5,rank 24.50 among best available
-BUY,NSE:JSWINFRA,25.75,rank 25.75 among best available
-BUY,NSE:GRAPHITE,25.75,rank 25.75 among best available
-BUY,NSE:TBOTEK,26.5,rank 26.50 among best available
-BUY,NSE:PERSISTENT,27.5,rank 27.50 among best available
-BUY,NSE:MRPL,28.0,rank 28.00 among best available
-BUY,NSE:IIFL,29.25,rank 29.25 among best available
-BUY,NSE:JINDALSAW,29.75,rank 29.75 among best available
-BUY,NSE:KALYANKJIL,30.5,rank 30.50 among best available
+BUY,NSE:OFSS,19.25,rank 19.25 among best available
+BUY,NSE:REDINGTON,19.5,rank 19.50 among best available
+BUY,NSE:COFORGE,19.75,rank 19.75 among best available
+BUY,NSE:CUB,23.0,rank 23.00 among best available
+BUY,NSE:APLAPOLLO,24.0,rank 24.00 among best available
+BUY,NSE:JSWINFRA,24.5,rank 24.50 among best available
+BUY,NSE:GRAPHITE,25.25,rank 25.25 among best available
+BUY,NSE:ENGINERSIN,25.5,rank 25.50 among best available
+BUY,NSE:TBOTEK,26.0,rank 26.00 among best available
+BUY,NSE:MRPL,28.25,rank 28.25 among best available
+BUY,NSE:PERSISTENT,28.5,rank 28.50 among best available
+BUY,NSE:JINDALSAW,28.5,rank 28.50 among best available
+BUY,NSE:IIFL,29.0,rank 29.00 among best available
 BUY,NSE:JYOTICNC,30.75,rank 30.75 among best available
-BUY,NSE:PETRONET,32.25,rank 32.25 among best available
+BUY,NSE:KALYANKJIL,31.0,rank 31.00 among best available
+BUY,NSE:PETRONET,32.5,rank 32.50 among best available
