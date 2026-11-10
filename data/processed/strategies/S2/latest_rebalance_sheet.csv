@@ -19,38 +19,37 @@ SELL,NSE:HSCL,,below 200DEMA
 SELL,NSE:IDEA,,below 200DEMA
 SELL,NSE:J&KBANK,,below 200DEMA
 SELL,NSE:LLOYDSME,,no longer rankable (missing recent price data)
-SELL,NSE:MAHABANK,,below 200DEMA
 SELL,NSE:POLYCAB,,below 200DEMA
 SELL,NSE:POWERINDIA,,below 200DEMA
 SELL,NSE:SCHNEIDER,,below 200DEMA
 SELL,NSE:STARHEALTH,,no longer rankable (missing recent price data)
-HOLD,NSE:BHEL,13.5,"still eligible, rank within hold band"
-HOLD,NSE:LAURUSLABS,1.75,"still eligible, rank within hold band"
+HOLD,NSE:BHEL,11.75,"still eligible, rank within hold band"
+HOLD,NSE:LAURUSLABS,2.5,"still eligible, rank within hold band"
+HOLD,NSE:MAHABANK,21.75,"still eligible, rank within hold band"
 HOLD,NSE:RRKABEL,10.5,"still eligible, rank within hold band"
 HOLD,NSE:SYRMA,2.0,"still eligible, rank within hold band"
-HOLD,NSE:WELCORP,2.75,"still eligible, rank within hold band"
-BUY,NSE:ZYDUSLIFE,6.75,rank 6.75 among best available
-BUY,NSE:SHYAMMETL,9.75,rank 9.75 among best available
-BUY,NSE:MOTHERSON,14.0,rank 14.00 among best available
-BUY,NSE:LALPATHLAB,14.25,rank 14.25 among best available
-BUY,NSE:KARURVYSYA,15.25,rank 15.25 among best available
-BUY,NSE:ADANIPORTS,17.0,rank 17.00 among best available
-BUY,NSE:MCX,17.0,rank 17.00 among best available
-BUY,NSE:GESHIP,17.25,rank 17.25 among best available
-BUY,NSE:CGCL,19.75,rank 19.75 among best available
-BUY,NSE:PPLPHARMA,21.0,rank 21.00 among best available
-BUY,NSE:TVSMOTOR,22.5,rank 22.50 among best available
-BUY,NSE:FINCABLES,22.5,rank 22.50 among best available
-BUY,NSE:BAJAJ-AUTO,23.25,rank 23.25 among best available
-BUY,NSE:WOCKPHARMA,24.75,rank 24.75 among best available
-BUY,NSE:ETERNAL,25.5,rank 25.50 among best available
-BUY,NSE:REDINGTON,26.25,rank 26.25 among best available
-BUY,NSE:OFSS,26.25,rank 26.25 among best available
-BUY,NSE:COFORGE,27.5,rank 27.50 among best available
-BUY,NSE:TECHM,27.75,rank 27.75 among best available
-BUY,NSE:UNIONBANK,29.75,rank 29.75 among best available
-BUY,NSE:APOLLOHOSP,30.5,rank 30.50 among best available
-BUY,NSE:KOTAKBANK,31.25,rank 31.25 among best available
-BUY,NSE:CUB,33.0,rank 33.00 among best available
-BUY,NSE:APLAPOLLO,34.0,rank 34.00 among best available
-BUY,NSE:JSWINFRA,34.0,rank 34.00 among best available
+HOLD,NSE:WELCORP,1.75,"still eligible, rank within hold band"
+BUY,NSE:ZYDUSLIFE,7.75,rank 7.75 among best available
+BUY,NSE:SHYAMMETL,10.25,rank 10.25 among best available
+BUY,NSE:MOTHERSON,11.5,rank 11.50 among best available
+BUY,NSE:KARURVYSYA,13.0,rank 13.00 among best available
+BUY,NSE:ADANIPORTS,13.25,rank 13.25 among best available
+BUY,NSE:LALPATHLAB,14.5,rank 14.50 among best available
+BUY,NSE:MCX,15.75,rank 15.75 among best available
+BUY,NSE:GESHIP,17.5,rank 17.50 among best available
+BUY,NSE:FINCABLES,19.75,rank 19.75 among best available
+BUY,NSE:CGCL,20.0,rank 20.00 among best available
+BUY,NSE:APOLLOHOSP,21.25,rank 21.25 among best available
+BUY,NSE:OFSS,22.25,rank 22.25 among best available
+BUY,NSE:WOCKPHARMA,22.75,rank 22.75 among best available
+BUY,NSE:REDINGTON,23.0,rank 23.00 among best available
+BUY,NSE:BAJAJ-AUTO,24.0,rank 24.00 among best available
+BUY,NSE:PPLPHARMA,24.5,rank 24.50 among best available
+BUY,NSE:TECHM,27.0,rank 27.00 among best available
+BUY,NSE:ETERNAL,27.5,rank 27.50 among best available
+BUY,NSE:TVSMOTOR,28.5,rank 28.50 among best available
+BUY,NSE:COFORGE,28.75,rank 28.75 among best available
+BUY,NSE:UNIONBANK,29.5,rank 29.50 among best available
+BUY,NSE:GRAPHITE,32.25,rank 32.25 among best available
+BUY,NSE:DRREDDY,32.5,rank 32.50 among best available
+BUY,NSE:CUB,33.25,rank 33.25 among best available
