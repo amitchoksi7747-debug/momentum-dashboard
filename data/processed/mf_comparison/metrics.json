@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "run_timestamp": "2026-11-19T00:07:57Z",
+  "run_timestamp": "2026-11-19T11:15:39Z",
   "common_start": "2025-08-28",
   "as_of_date": "2026-11-18",
   "funds": {
@@ -8,15 +8,15 @@
       "category": "Index",
       "official_name": "Axis Nifty500 Momentum 50 Index Fund - Direct Plan - Growth Option",
       "inception": "2025-02-18",
-      "latest_date": "2026-11-17",
-      "latest_nav": 11.1805,
-      "return_1m": 0.035499944430037456,
-      "return_3m": -0.014560582423296942,
-      "return_6m": 0.03017598820602596,
-      "return_ytd": 0.02511323418847322,
-      "since_inception_return": 0.1539850958858866,
-      "since_inception_cagr": 0.08558798548846935,
-      "common_window_return": 0.07217176996327179
+      "latest_date": "2026-11-18",
+      "latest_nav": 11.0568,
+      "return_1m": 0.024043270477531298,
+      "return_3m": -0.02728096490687859,
+      "return_6m": 0.025534480359875822,
+      "return_ytd": 0.013771477820769151,
+      "since_inception_return": 0.14121751336622435,
+      "since_inception_cagr": 0.07855668588444664,
+      "common_window_return": 0.060309362383605736
     },
     "Edelweiss Midcap150 Momentum50": {
       "category": "Index",
@@ -78,15 +78,15 @@
       "category": "Active",
       "official_name": "Nippon India Active Momentum Fund - Direct Plan - Growth Option",
       "inception": "2025-03-03",
-      "latest_date": "2026-11-17",
-      "latest_nav": 13.2981,
-      "return_1m": 0.06724611161939609,
-      "return_3m": -0.008263168492568362,
-      "return_6m": 0.0992345589207777,
-      "return_ytd": 0.08866075594960332,
-      "since_inception_return": 0.33179437361668906,
-      "since_inception_cagr": 0.18259932218942443,
-      "common_window_return": 0.16163945596058604
+      "latest_date": "2026-11-18",
+      "latest_nav": 13.1945,
+      "return_1m": 0.05893163833646331,
+      "return_3m": -0.013510078353968558,
+      "return_6m": 0.09761169942850478,
+      "return_ytd": 0.08017945002496907,
+      "since_inception_return": 0.32141891418213153,
+      "since_inception_cagr": 0.17689055963057365,
+      "common_window_return": 0.15258960315172487
     }
   }
 }
