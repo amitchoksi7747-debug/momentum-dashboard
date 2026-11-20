@@ -408,6 +408,7 @@ SchemeCode,ShortName,Category,OfficialName,Date,NAV
 153364,Motilal Oswal Active Momentum,Active,Motilal Oswal Active Momentum Fund - Direct Plan - Growth,2026-11-16,14.2796
 153364,Motilal Oswal Active Momentum,Active,Motilal Oswal Active Momentum Fund - Direct Plan - Growth,2026-11-17,14.2613
 153364,Motilal Oswal Active Momentum,Active,Motilal Oswal Active Momentum Fund - Direct Plan - Growth,2026-11-18,14.1512
+153364,Motilal Oswal Active Momentum,Active,Motilal Oswal Active Momentum Fund - Direct Plan - Growth,2026-11-19,14.1988
 153274,Nippon Active Momentum,Active,Nippon India Active Momentum Fund - Direct Plan - Growth Option,2025-03-03,9.9851
 153274,Nippon Active Momentum,Active,Nippon India Active Momentum Fund - Direct Plan - Growth Option,2025-03-04,9.9402
 153274,Nippon Active Momentum,Active,Nippon India Active Momentum Fund - Direct Plan - Growth Option,2025-03-05,10.1244
@@ -830,6 +831,7 @@ SchemeCode,ShortName,Category,OfficialName,Date,NAV
 153274,Nippon Active Momentum,Active,Nippon India Active Momentum Fund - Direct Plan - Growth Option,2026-11-16,13.2498
 153274,Nippon Active Momentum,Active,Nippon India Active Momentum Fund - Direct Plan - Growth Option,2026-11-17,13.2981
 153274,Nippon Active Momentum,Active,Nippon India Active Momentum Fund - Direct Plan - Growth Option,2026-11-18,13.1945
+153274,Nippon Active Momentum,Active,Nippon India Active Momentum Fund - Direct Plan - Growth Option,2026-11-19,13.3298
 153684,ICICI Pru Active Momentum,Active,ICICI Prudential Active Momentum Fund - Direct Plan - Growth,2025-07-28,9.99
 153684,ICICI Pru Active Momentum,Active,ICICI Prudential Active Momentum Fund - Direct Plan - Growth,2025-07-29,10.01
 153684,ICICI Pru Active Momentum,Active,ICICI Prudential Active Momentum Fund - Direct Plan - Growth,2025-07-30,10.01
@@ -1152,6 +1154,7 @@ SchemeCode,ShortName,Category,OfficialName,Date,NAV
 153684,ICICI Pru Active Momentum,Active,ICICI Prudential Active Momentum Fund - Direct Plan - Growth,2026-11-16,10.74
 153684,ICICI Pru Active Momentum,Active,ICICI Prudential Active Momentum Fund - Direct Plan - Growth,2026-11-17,10.74
 153684,ICICI Pru Active Momentum,Active,ICICI Prudential Active Momentum Fund - Direct Plan - Growth,2026-11-18,10.58
+153684,ICICI Pru Active Momentum,Active,ICICI Prudential Active Momentum Fund - Direct Plan - Growth,2026-11-19,10.72
 153753,Kotak Active Momentum,Active,Kotak Active Momentum Fund - Direct Plan - Growth Option,2025-08-28,10.026
 153753,Kotak Active Momentum,Active,Kotak Active Momentum Fund - Direct Plan - Growth Option,2025-08-29,10.027
 153753,Kotak Active Momentum,Active,Kotak Active Momentum Fund - Direct Plan - Growth Option,2025-09-01,10.032
@@ -1453,6 +1456,7 @@ SchemeCode,ShortName,Category,OfficialName,Date,NAV
 153753,Kotak Active Momentum,Active,Kotak Active Momentum Fund - Direct Plan - Growth Option,2026-11-16,10.949
 153753,Kotak Active Momentum,Active,Kotak Active Momentum Fund - Direct Plan - Growth Option,2026-11-17,10.987
 153753,Kotak Active Momentum,Active,Kotak Active Momentum Fund - Direct Plan - Growth Option,2026-11-18,10.872
+153753,Kotak Active Momentum,Active,Kotak Active Momentum Fund - Direct Plan - Growth Option,2026-11-19,10.975
 150902,Edelweiss Midcap150 Momentum50,Index,Edelweiss Nifty Midcap150 Momentum 50 Index Fund - Direct Plan - Growth,2022-12-02,10.1624
 150902,Edelweiss Midcap150 Momentum50,Index,Edelweiss Nifty Midcap150 Momentum 50 Index Fund - Direct Plan - Growth,2022-12-05,10.1254
 150902,Edelweiss Midcap150 Momentum50,Index,Edelweiss Nifty Midcap150 Momentum 50 Index Fund - Direct Plan - Growth,2022-12-06,10.0684
@@ -2429,6 +2433,7 @@ SchemeCode,ShortName,Category,OfficialName,Date,NAV
 150902,Edelweiss Midcap150 Momentum50,Index,Edelweiss Nifty Midcap150 Momentum 50 Index Fund - Direct Plan - Growth,2026-11-16,18.6686
 150902,Edelweiss Midcap150 Momentum50,Index,Edelweiss Nifty Midcap150 Momentum 50 Index Fund - Direct Plan - Growth,2026-11-17,18.6933
 150902,Edelweiss Midcap150 Momentum50,Index,Edelweiss Nifty Midcap150 Momentum 50 Index Fund - Direct Plan - Growth,2026-11-18,18.4554
+150902,Edelweiss Midcap150 Momentum50,Index,Edelweiss Nifty Midcap150 Momentum 50 Index Fund - Direct Plan - Growth,2026-11-19,18.5602
 153244,Axis Nifty500 Momentum50,Index,Axis Nifty500 Momentum 50 Index Fund - Direct Plan - Growth Option,2025-02-18,9.6886
 153244,Axis Nifty500 Momentum50,Index,Axis Nifty500 Momentum 50 Index Fund - Direct Plan - Growth Option,2025-02-19,9.8521
 153244,Axis Nifty500 Momentum50,Index,Axis Nifty500 Momentum 50 Index Fund - Direct Plan - Growth Option,2025-02-20,9.9827
@@ -2865,3 +2870,4 @@ SchemeCode,ShortName,Category,OfficialName,Date,NAV
 153244,Axis Nifty500 Momentum50,Index,Axis Nifty500 Momentum 50 Index Fund - Direct Plan - Growth Option,2026-11-16,11.1808
 153244,Axis Nifty500 Momentum50,Index,Axis Nifty500 Momentum 50 Index Fund - Direct Plan - Growth Option,2026-11-17,11.1805
 153244,Axis Nifty500 Momentum50,Index,Axis Nifty500 Momentum 50 Index Fund - Direct Plan - Growth Option,2026-11-18,11.0568
+153244,Axis Nifty500 Momentum50,Index,Axis Nifty500 Momentum 50 Index Fund - Direct Plan - Growth Option,2026-11-19,11.1583
